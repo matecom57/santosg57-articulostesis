@@ -2,14 +2,19 @@ intelligence:2005
 =================
 
     "title": "Creativity, intelligence, and personality: a critical review of the scattered literature.",
+Creatividad, inteligencia y personalidad: una revisión crítica de la literatura dispersa
 
     "title": "Creating knowledge-driven healthcare processes with the Intelligence Continuum.",
+Creación de procesos de atención sanitaria basados ​​en el conocimiento con Intelligence Continuum
 
     "title": "Application of knowledge management and the intelligence continuum for medical emergencies and disaster scenarios.",
+Aplicación de la gestión del conocimiento y el continuo de inteligencia para emergencias médicas y escenarios de desastres
 
     "title": "Inferring network interactions using recurrent neural networks and swarm intelligence.",
+Inferir interacciones de red utilizando redes neuronales recurrentes e inteligencia de enjambre
 
     "title": "Knowledge creation using artificial intelligence: a twin approach to improve breast screening attendance.",
+Creación de conocimiento mediante inteligencia artificial: un enfoque doble para mejorar la asistencia a las pruebas de detección de cáncer de mama
 
     "title": "Scope of attention, control of attention, and intelligence in children and adults.",
 
