@@ -19,4 +19,5 @@ Contents
 .. toctree::
 
    usage
+   intelligence_2005
    api
