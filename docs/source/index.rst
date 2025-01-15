@@ -19,5 +19,5 @@ Contents
 .. toctree::
 
    usage
-   intelligence_2005
+   intelligence_2005_title
    api
