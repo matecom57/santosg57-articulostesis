@@ -19,7 +19,6 @@ Contents
 .. toctree::
 
    usage
-<<<<<<< HEAD
    intelligence_2005_title_espanol
    intelligence_2006_title_espanol
    intelligence_2007_title_espanol
@@ -41,9 +40,4 @@ Contents
    intelligence_2023_title_espanol
    intelligence_2024_title_espanol
    intelligence_2025_title_espanol
-=======
-   intelligence_2006_title_espanol
-   intelligence_2007_title_espanol
-   intelligence_2009_title_espanol
->>>>>>> ccbe627194180ee36d9ee87981252d8fe8c261e4
    api
