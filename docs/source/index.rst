@@ -19,5 +19,7 @@ Contents
 .. toctree::
 
    usage
-   intelligence_2005_title
+   intelligence_2006_title_espanol
+   intelligence_2007_title_espanol
+   intelligence_2009_title_espanol
    api
