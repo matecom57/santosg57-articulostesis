@@ -19,9 +19,9 @@ También hay algunos ejemplos que muestran cómo modificar la apariencia de un d
 parte de una cadena de texto pasada como argumento de llamada al método write() de JavaScript.
 
 
-1.1 Introducing the Tools
+**1.1 Introducing the Tools**
 
-1.1.1 What Is an HTML Document?
+**1.1.1 What Is an HTML Document?**
 
 HTML is an acronym for HyperText Markup Language. HTML documents, the foundation of all content appearing on the World Wide Web (WWW), consist of two 
 essential parts: information content and a set of instructions that tells a computer how to display that content. The instructions—the “markup,” in 
