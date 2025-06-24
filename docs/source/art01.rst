@@ -1,17 +1,20 @@
 A Study of Intuitionistic Fuzzy Graph Using Morphological Operators and Its Application
 =======================================================================================
 
-Abstract The study focuses on some properties of **mathematical morphological operators** on **intuitionistic fuzzy graphs**(IFG). Morphological 
+Abstract The study focuses on some properties of **mathematical morphological operators** on **intuitionistic fuzzy graphs** (IFG). Morphological 
 operators like 
 dilation and erosion and its composition are useful in the application of intuitionistic fuzzy graph. It is extended to study the topological 
-properties using the topological data analysis(TDA) with the help of bar codes and betti numbers obtained by constructing minimal spanning trees(MST) 
+properties using the **topological data analysis** (TDA) with the help of **bar codes and betti numbers** obtained by constructing **minimal spanning 
+trees** (MST) 
 which extracts topological properties of intuitionistic fuzzy graph. Finally, an algorithm for analyzing spread of disease is presented in this study.
 
 Resumen El estudio se centra en algunas propiedades de los operadores morfológicos matemáticos en grafos difusos intuicionistas (IFG). Operadores 
 morfológicos como la dilatación y la erosión, así como su composición, son útiles en la aplicación de grafos difusos intuicionistas. Se amplía el 
 estudio de las propiedades topológicas mediante el análisis topológico de datos (TDA) con la ayuda de códigos de barras y números de Betti obtenidos 
 mediante la construcción de árboles de expansión mínima (MST), que extraen las propiedades topológicas de los grafos difusos intuicionistas. 
-Finalmente, se presenta un algoritmo para analizar la propagación de enfermedades. Keywords Morphological operators · Fuzzy graphs · Betti numbers
+Finalmente, se presenta un algoritmo para analizar la propagación de enfermedades. 
+
+Keywords Morphological operators · Fuzzy graphs · Betti numbers
 
 **1 Introduction**
 
