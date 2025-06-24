@@ -16,8 +16,9 @@ no es necesariamente completa, sino que incluye un subconjunto que se utiliza en
 colores en documentos y una breve introducción a las hojas de estilo en cascada.
 
 
-2.1 Documents, Elements, Attributes, and Values
-2.1.1 Essential Elements
+**2.1 Documents, Elements, Attributes, and Values**
+
+**2.1.1 Essential Elements**
 
 As noted in Chapter 1, JavaScript needs an HTML document to serve as a user interface. Or, stated the other way around, HTML documents need a scripting 
 language such as JavaScript to manage interactions with users. A basic HTML document consists of four sections defined by four sets of elements, 
@@ -29,13 +30,21 @@ secciones definidas por cuatro conjuntos de elementos, organizados de la siguien
 
 
 <html>
+
 <head>
+
 <title> … </title>
+
 …
+
 </head>
+
 <body>
+
 …
+
 </body>
+
 </html>
 
 Each of these elements has a start tag and an end tag. Tags are always enclosed in angle brackets <…> and the end tag always includes a forward slash 
@@ -102,7 +111,7 @@ Attributes: none
 The body element contains the HTML document content, along with whatever elements are required to format, access, and manipulate the content.
 Attributes: background, bgcolor, text
 
-2.1.2 Some Other Important Elements
+**2.1.2 Some Other Important Elements**
 
 The four basic elements discussed above constitute no more than a blank template for an HTML document. Other elements are needed to display and control 
 the appearance of content within the document. Following are some important elements that you will use over and over again in your HTML documents, 
@@ -114,18 +123,18 @@ utilizará una y otra vez en sus documentos HTML, enumerados en orden alfabétic
 aquellos que se utilizan en este libro.
 
 
-<a> … </a>
+``<a> … </a>``
 
-The a (for “anchor”) element provides links to an external resource or to an internal link within a document.
+The ``a`` (for “anchor”) element provides links to an external resource or to an internal link within a document.
 
 El elemento a (para "ancla") proporciona enlaces a un recurso externo o a un enlace interno dentro de un documento.
 
 
 Attributes: href, name
 
-<b> … </b>
+``<b> … </b>``
 
-The b element forces the included text to be displayed in a bold font. This is a “physical element” in the sense that it is associated specifically 
+The ``b`` element forces the included text to be displayed in a bold font. This is a “physical element” in the sense that it is associated specifically 
 with displaying text in a bold font, even though the actual appearance may depend on the browser and computer used. In contrast, see the strong element 
 below.
 
@@ -136,9 +145,10 @@ elemento fuerte a continuación.
 
 Attributes: none
 
-<br /> or <br>
+``<br />`` or ``<br>``
 
-The br element inserts a break (line feed) in the text. Multiple breaks can be used to insert multiple blank lines between sections of text. The break 
+The ``br`` element inserts a break (line feed) in the text. Multiple breaks can be used to insert multiple blank lines between sections of text. The 
+break 
 element has no end tag because it encloses no content. Under XHTML rules, a closing slash (after a space) must be included: <br />. The slash is rarely 
 seen in older HTML documents, so its use will be encouraged but not required.
 
@@ -150,13 +160,14 @@ aunque no es obligatorio.
 
 Attributes: none
 
-<center> … </center>
+``<center> … </center>``
 
 The center element causes displayed text to be centered on the
 computer screen.
+
 Attributes: none
 
-<em> … </em>
+``<em> … </em>``
 
 This is a “logical element” that will typically cause text to be displayed in italics, but it can be redefined to produce different results in 
 different environments. For most purposes, em and i are interchangeable.
@@ -168,13 +179,13 @@ diferentes entornos. Para la mayoría de los propósitos, em y yo somos intercam
 See the i element below.
 Attributes: none
 
-<font> … </font>
+``<font> … </font>``
 
 The font element controls the appearance of text. The two most commonly used attributes control the size and color of the text.
 
 Attributes: size, color, face
 
-<hr /> or <hr>
+``<hr />`` or ``<hr>``
 
 The horizontal rule element draws a shaded horizontal line across the screen. It does not have an end tag. A closing slash (after a space) is required 
 in XHTML. A noshade attribute displays the rule as a solid color, rather than shaded.
@@ -185,29 +196,30 @@ barra diagonal de cierre (después de un espacio). Un atributo noshade muestra l
 
 Attributes: align, color, noshade, size, width
 
-<hn> … </hn>
+``<hn> … </hn>``
 
 Up to six levels of headings (for n ranging from 1 to 6) can be defined, with decreasing font sizes as n increases from 1 to 6.
 
 Attributes: align
 
-<i> … </i>
+``<i> … </i>``
 
-i is a “physical element” that forces the included text to be displayed in italics. The actual appearance may depend on the browser and computer used. 
+``i` is a “physical element” that forces the included text to be displayed in italics. The actual appearance may depend on the browser and computer 
+used. 
 Compare with the em element above.
 
 Attributes: none
 
-<img />
+``<img />``
 
 The img element provides a link to an image to be displayed within a document. The image is stored in a separate file, perhaps even at another Web 
 address, the location of which is provided by the src attribute.
 
 Attributes: align, border, height, src, vspace, width
 
-<p> … </p>
+``<p> … </p>``
 
-The p element marks the beginning and end of a paragraph of text
+The ``p`` element marks the beginning and end of a paragraph of text
 content. Note that HTML does not automatically indent paragraphs.
 Rather, it separates paragraphs with an empty line, with all the text
 aligned left. It is common to see only the start tag used in HTML
@@ -217,7 +229,7 @@ followed.
 
 Attributes: none
 
-<pre> … </pre>
+``<pre> … </pre>``
 
 The default behavior of HTML is to collapse multiple spaces, line feeds, and tabs to a single space. This destroys some of the text formatting that you 
 may wish to preserve in a document, such as tabs at the beginning of paragraphs.
@@ -237,9 +249,9 @@ convenciones de ubicación de texto, pre es muy útil para incrustar ejemplos de
 
 Attributes: none
 
-<strong> … </strong>
+``<strong> … </strong>``
 
-strong is a “logical element” that typically causes text to be displayed in a bold font, but it can be redefined to produce different results in 
+``strong`` is a “logical element” that typically causes text to be displayed in a bold font, but it can be redefined to produce different results in 
 different environments. For most purposes, b and strong are interchangeable. Compare this with the b tag above.
 
 strong es un "elemento lógico" que normalmente hace que el texto se muestre en negrita, pero se puede redefinir para producir diferentes resultados en 
