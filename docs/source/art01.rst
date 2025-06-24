@@ -6,18 +6,25 @@ dilation and erosion and its composition are useful in the application of intuit
 properties using the topological data analysis(TDA) with the help of bar codes and betti numbers obtained by constructing minimal spanning trees(MST) 
 which extracts topological properties of intuitionistic fuzzy graph. Finally, an algorithm for analyzing spread of disease is presented in this study.
 
-Keywords Morphological operators · Fuzzy graphs · Betti numbers
+Resumen El estudio se centra en algunas propiedades de los operadores morfológicos matemáticos en grafos difusos intuicionistas (IFG). Operadores 
+morfológicos como la dilatación y la erosión, así como su composición, son útiles en la aplicación de grafos difusos intuicionistas. Se amplía el 
+estudio de las propiedades topológicas mediante el análisis topológico de datos (TDA) con la ayuda de códigos de barras y números de Betti obtenidos 
+mediante la construcción de árboles de expansión mínima (MST), que extraen las propiedades topológicas de los grafos difusos intuicionistas. 
+Finalmente, se presenta un algoritmo para analizar la propagación de enfermedades. Keywords Morphological operators · Fuzzy graphs · Betti numbers
 
-1
+**1 Introduction**
 
-Introduction
-
-1.1 Mathematical Morphology
+**1.1 Mathematical Morphology**
 
 The main idear behind mathematical morphology(MM) [6, 12, 13, 20] is to study the geometric structure of an image by probing or matching it with tiny 
 patterns, named structuring elements, at different locations of the image sothat extraction of different parts of the image and their 
 interrelations.Nonlinearity of the MM operators,dilation and erosion„makes them suitable for the study of geometric and topological structure of the 
 image.
+
+La idea principal detrás de la morfología matemática (MM) [6, 12, 13, 20] es estudiar la estructura geométrica de una imagen sondeándola o comparándola 
+con pequeños patrones, llamados elementos estructurantes, en diferentes ubicaciones de la imagen para extraer diferentes partes de la imagen y sus 
+interrelaciones. La no linealidad de los operadores MM, dilatación y erosión, los hace adecuados para el estudio de la estructura geométrica y 
+topológica de la imagen.
 
 At the initial stage, MM was used to study binary images using set theory.To consider the grey scale or color images,it was necessary to generalize set 
 theoretic approach. Ronse and Heijmans in 1990 developed MM operators using complete lattice structure. In this, partial orders are used to indicate 
@@ -29,7 +36,17 @@ distributive over supremum. The operators δ and ∈  form an adjunction if δ(Y
 extensive,increasing and idempotent. For an adjunction (∈ , δ) between the operators M 1 and M 2 ,opening is the composition δ∈  and the closing is 
 the compostion ∈ δ.
 
-1.2 Fuzzy Mathematical Morphology
+En la etapa inicial, MM se utilizó para estudiar imágenes binarias mediante la teoría de conjuntos. Para considerar la escala de grises o las imágenes 
+a color, fue necesario generalizar el enfoque de la teoría de conjuntos. En 1990, Ronse y Heijmans desarrollaron operadores MM utilizando una 
+estructura reticular completa. En esta, se utilizan órdenes parciales para indicar la relación entre las imágenes. El supremo y el ínfimo son dos 
+operaciones utilizadas en esta estructura. Cualquier operador ∈ : M 1 → M 2 donde M 1 y M 2 son reticulados completos se denomina erosión si es 
+antiextensivo (es decir, ∈ (X) ⊆ X, para X ∈ M 1 ), creciente y distributivo sobre el ínfimo. Cualquier operador δ : M 2 → M 1 donde M 1 y M 2 son 
+redes completas se llama dilatación si es extensivo (es decir, X ⊆ δ(Y) para Y ∈ M 2 ), creciente y distributivo sobre supremo. Los operadores δ y ∈ 
+forman una adjunción si δ(Y) ≤ X ⇐⇒ Y ≤ ∈ (X), para X ∈ M 1 , Y ∈ M 2 . Un operador φ : M 1 → M 1 se conoce como apertura si es antiextensivo, 
+creciente e idempotente (φ 2 = φ). Cualquier operador ψ : M 2 → M 2 se conoce como cierre si es extensivo, creciente e idempotente. Para una adjunción 
+(∈ , δ) entre los operadores M 1 y M 2 , la apertura es la composición δ∈ y el cierre es la composición ∈ δ.
+
+**1.2 Fuzzy Mathematical Morphology**
 
 Authors like Di Gesu, De Baets, Bloch [9–11], Maitre and Nachtegeal [17] explained basic mathematical morphology operators based on fuzzy set theory 
 [2, 3, 23], intuitionistic fuzzy set theory and bipolay set theory [1]. This provides alternative methods to extend binary morphology to greyscale 
