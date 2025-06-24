@@ -7,9 +7,10 @@ pag30
 			
 Document Basics
 
-Chapter 2 describes the characteristics of an HTML document, including some of the basic HTML elements and their attributes. The list of attributes is 
+Chapter 2 describes the characteristics of an HTML document, including some of the **basic HTML elements** and their **attributes**. The list of 
+attributes is 
 not necessarily complete, but rather includes a subset that is used in this book. The chapter includes a description of how to set colors in documents 
-and a brief introduction to cascading style sheets.
+and a brief introduction to **cascading style sheets**.
 
 El Capítulo 2 describe las características de un documento HTML, incluidos algunos de los elementos HTML básicos y sus atributos. La lista de atributos 
 no es necesariamente completa, sino que incluye un subconjunto que se utiliza en este libro. El capítulo incluye una descripción de cómo configurar 
@@ -48,8 +49,8 @@ secciones definidas por cuatro conjuntos de elementos, organizados de la siguien
 </html>
 
 Each of these elements has a start tag and an end tag. Tags are always enclosed in angle brackets <…> and the end tag always includes a forward slash 
-before the element name. The body element supports attributes that can be used to control the overall appearance of an HTML document. Documents, 
-elements, attributes, and values are organized in a specific hierarchy:
+before the element name. The body element supports attributes that can be used to control the overall appearance of an HTML document. **Documents, 
+elements, attributes, and values** are organized in a specific hierarchy:
 
 Cada uno de estos elementos tiene una etiqueta de inicio y una etiqueta de finalización. Las etiquetas siempre están entre corchetes angulares <…> y la 
 etiqueta final siempre incluye una barra diagonal antes del nombre del elemento. El elemento del cuerpo admite atributos que se pueden utilizar para 
