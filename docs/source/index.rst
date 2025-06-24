@@ -41,5 +41,4 @@ Contents
    intelligence_2024_title_espanol
    intelligence_2025_title_espanol
    api
-
-    art01
+   art01
