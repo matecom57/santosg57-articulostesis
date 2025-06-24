@@ -41,8 +41,11 @@ resida, pero el objetivo de la independencia de la plataforma sólo se logra de 
 A basic HTML document requires a minimum of four sets of elements:
 
 <html> … </html>
+
 <head> … </head>
+
 <title> … </title>
+
 <body> … </body>
 
 These elements define the essential parts of an HTML document: the document itself, a heading section, a title section, and a body. Each of the 
@@ -65,15 +68,25 @@ en HTML. Para admitir un lenguaje de secuencias de comandos como JavaScript (¡m
 For our purposes, a script element always contains JavaScript code. These elements are organized as follows within an HTML document:
 
 <html>
+
 <head>
+
 <title> … </title>
+
 …
+
 <!-- Optional script elements as needed. -->
+
 <script> … </script>
+
 </head>
+
 <body>
+
 …
+
 </body>
+
 </html>
 
 The html tag encloses all other tags and defines the boundaries of the HTML document. We will return to all the other tags later. script tags are often 
@@ -126,7 +139,7 @@ elegante para implementar esta estrategia. Un documento HTML proporciona la inte
 que proporciona una gran cantidad de posibilidades de interfaz que superan con creces las de los lenguajes basados en texto como C.
 
 
-1.1.2 What Is JavaScript?
+**1.1.2 What Is JavaScript?**
 
 JavaScript is an interpreted (rather than a compiled) object-oriented programming language, with roots in C/C++, that has been developed for use with 
 other Web tools. It does not operate as a standalone language, but rather is designed to work together with HTML for creating interactive Web pages. 
@@ -199,7 +212,7 @@ HTML/JavaScript, lo cual es factible porque hay pocas razones para utilizar subc
 los temas tratados en este libro.
 
 
-1.1.3 How Do You Create HTML/JavaScript Documents?
+**1.1.3 How Do You Create HTML/JavaScript Documents?**
 
 Since HTML/JavaScript documents are just text documents, they can be created with any text editor. Even Windows’ very basic Notepad application is a 
 workable choice for simple tasks.1 Once they are created, you can open HTML files in your computer’s browser—hopefully without regard to which browser 
@@ -316,7 +329,7 @@ cuadro de "alerta", como se describirá más adelante en este libro, la aparienc
 tanto, puede ser diferente de lo que se muestra aquí.
 
 
-1.1.4 Some Typographic Conventions Used in This Book
+**1.1.4 Some Typographic Conventions Used in This Book**
 
 HTML tags and JavaScript code are printed in a monospaced (Courier) font in document examples and whenever they are referred to in the text. Thus, 
 document is interpreted as a reference to an HTML object, as opposed to its general use as a term identifying a body of text. Some technical terms used 
@@ -346,7 +359,7 @@ Debido al pequeño formato de este libro, los saltos de línea en los ejemplos d
 línea necesarios sean lo más lógicos posible, pero es posible que desee eliminar algunos saltos cuando reproduzca estos documentos para su propio uso.
 
 
-1.1.5 Where Should I Look for More Information about HTML and JavaScript?
+**1.1.5 Where Should I Look for More Information about HTML and JavaScript?**
 
 By now, it should be clear that this book is in no way intended as a reference source for either HTML or JavaScript. Any attempt to provide complete 
 coverage for either language would thoroughly confound its purpose and is far beyond my capabilities! Therefore, you must look elsewhere for exhaustive 
@@ -358,7 +371,9 @@ de mis capacidades! Por lo tanto, debe buscar en otra parte tratamientos exhaust
 
 
 Thomas Powell, HTML: The Complete Reference, Third Edition, 2001, Osborne/McGraw-Hill, Berkeley, CA. ISBN 0-07-212951-4.
+
 Thomas Powell and Dan Whitworth, HTML Programmer’s Reference, Second Edition, 2001, Osborne/McGraw-Hill, Berkeley, CA. ISBN 0-07-213232-9.8
+
 Thomas Powell and Fritz Schneider, JavaScript: The Complete Reference, 2001, Osborne/McGraw-Hill, Berkeley, CA. ISBN 0-07-219127-9.
 
 If you are at all serious about creating your own online applications (“serious” perhaps being defined as anything past the bare minimum needed to 
@@ -379,7 +394,7 @@ problemas que se analizan aquí.
 
 Todd Stauffer, Using HTML 3.2, Second Edition, 1996, Que Corporation, Indianapolis, IN. ISBN 0-7897-0985-6.
 
-1.2 Your First HTML/JavaScript Documents
+**1.2 Your First HTML/JavaScript Documents**
 
 A typical first goal in learning any programming language is to display a simple message. With HTML, this is trivially simple: Just type the message in 
 the body of the document, as shown in Document 1.1. (Appendix 1 contains an index to all the documents in the text.)
@@ -389,16 +404,18 @@ simplemente escriba el mensaje en el cuerpo del documento, como se muestra en el
 documentos del texto).
 
 
-Document 1.1 (HelloWorldHTML.htm)
+**Document 1.1 (HelloWorldHTML.htm)**
 
-<html>
-<head>
-<title>First HTML Document</title>
-</head>
-<body>
-Hello, world!
-</body>
-</html>
+.. code:: Bash
+
+   <html>
+   <head>
+   <title>First HTML Document</title>
+   </head>
+   <body>
+      Hello, world!
+   </body>
+   </html>
 
 Most document examples presented in this book will include a browser’s rendering of the screen output produced by the document. When a border appears 
 around the output, as it does for the output from Document 1.1, the purpose is to distinguish the output from the rest of the text—the document does 
@@ -433,21 +450,23 @@ JavaScript simplemente para mostrar contenido fijo, pero este ejercicio proporci
 los detalles de este ejemplo y los siguientes parecen oscuros; ¡con suerte, los capítulos futuros aclararán todos estos detalles!
 
 
-Document 1.2 (HelloWorld.htm)
+**Document 1.2 (HelloWorld.htm)**
 
-<html>
-<head>
-<title>Hello, world!</title>
-<script language="javascript" type="text/javascript">
-// These statements display text in a document.
-document.write("Hello, world!");
-document.write("<br />It's a beautiful day!");
-</script>
-</head>
-<body>
-<!-- No content in the body of this document. -->
-</body>
-</html>
+.. code:: Bash
+
+   <html>
+   <head>
+   <title>Hello, world!</title>
+   <script language="javascript" type="text/javascript">
+   // These statements display text in a document.
+   document.write("Hello, world!");
+   document.write("<br />It's a beautiful day!");
+   </script>
+   </head>
+   <body>
+   <!-- No content in the body of this document. -->
+   </body>
+   </html>
 
 A browser must be instructed to interpret certain parts of an HTML document as JavaScript code. To accomplish this, all text appearing inside the 
 script element will be interpreted by a browser as one or more JavaScript statements. This means that HTML elements cannot appear inside the script 
@@ -461,9 +480,10 @@ HTML no pueden aparecer dentro del elemento script, ya que entonces el intérpre
 código JavaScript. Esto generará un error de JavaScript. En el Documento 1.2, la etiqueta <br />, que genera un salto de línea, es un elemento HTML, 
 pero se incluye dentro de una cadena de texto entre comillas. Esto está permitido, pero
 
+.. code:: Bash
 
-document.write("Hello, world!");
-<br /> document.write("It's a beautiful day!");
+   document.write("Hello, world!");
+   <br /> document.write("It's a beautiful day!");
 
 is not allowed.
 
@@ -494,12 +514,15 @@ the language and type attributes, as shown:
 Como veremos, la mayoría de los elementos HTML incluyen atributos que se utilizan para asignar propiedades al elemento. El elemento script debe incluir 
 valores para los atributos de idioma y tipo, como se muestra:
 
+.. code:: Bash
 
-<script language="javascript" type="text/javascript">
+   <script language="javascript" type="text/javascript">
 
 Comments within an HTML document are indicated by a very specific sequence of symbols:
 
-<!-- {comments} -->
+.. code:: Bash
+ 
+   <!-- {comments} -->
 
 In keeping with the style adopted in this book, italicized text enclosed in curly brackets indicates text that is entered by the user. The curly 
 brackets could be part of the comment, but are not needed and would normally not be included.
@@ -527,12 +550,13 @@ Un uso de los comentarios HTML es ocultar el código JavaScript de los navegador
 mucho menor hoy que hace varios años. También es irrelevante por ahora porque, por supuesto, su navegador debe soportar JavaScript para que sea útil 
 para este libro. En cualquier caso, ocultar JavaScript se logra de la siguiente manera:
 
+.. code:: Bash
 
-<script language="javascript" type="text/javascript">
-<!-- Start hiding JavaScript code here.
-{Put JavaScript statements here.}
-// Stop hiding code here. -->
-</script>
+   <script language="javascript" type="text/javascript">
+   <!-- Start hiding JavaScript code here.
+   {Put JavaScript statements here.}
+   // Stop hiding code here. -->
+   </script>
 
 Although these HTML comment tags appear to be out of place because we have already stated that HTML elements cannot appear inside a script element, any 
 browser that includes a JavaScript interpreter will be able to sort things out, basically by ignoring the comment tags.
@@ -591,21 +615,23 @@ ningún contenido HTML. Los elementos de etiqueta única deben incluir una barra
 
 Document 1.3 (HelloWorld2.htm)
 
-<html>
-<head>
-<title>Hello, world!</title>
-</head>
-<body>
-<h1 align="center">First JavaScript</h1>
-<hr />
-<script language="javascript" type="text/javascript">
-document.write("<font size='5'
-color='red'><center>Hello, world!</font>");
-document.write("<br /><font size='7' color='blue'>
-It's a beautiful day!</center></font>");
-</script>
-</body>
-</html>
+.. code:: Bash
+
+   <html>
+   <head>
+   <title>Hello, world!</title>
+   </head>
+   <body>
+   <h1 align="center">First JavaScript</h1>
+   <hr />
+   <script language="javascript" type="text/javascript">
+      document.write("<font size='5'
+      color='red'><center>Hello, world!</font>");
+      document.write("<br /><font size='7' color='blue'>
+      It's a beautiful day!</center></font>");
+   </script>
+   </body>
+   </html>
 
 (Try this yourself to see the colors displayed.)
 
@@ -619,9 +645,10 @@ caracteres entre comillas) y, por lo tanto, no violan la regla de que los elemen
 comandos. Básicamente, las etiquetas HTML se "pegan" en el documento HTML junto con el texto. dentro de la cuerda
 
 
+.. code:: Bash
 
-"<br /><font size='7' color='blue'>
-It's a beautiful day!</center></font>"
+   "<br /><font size='7' color='blue'>
+   It's a beautiful day!</center></font>"
 
 the attribute values are enclosed in single rather than double quotes. Otherwise, it would not be clear where the quoted string begins and ends.
 
@@ -645,12 +672,13 @@ produce an error:
 Como era de esperar, este intento de modificación del script, que contiene etiquetas HTML en un contexto donde un navegador espera ver sólo código 
 JavaScript, producirá un error:
 
+.. code:: Bash
 
-<script language="javascript" type="text/javascript">
-<font size="5" color="red"><center> // ERROR!!
-document.write("Hello, world");
-</font>
-</script>
+   <script language="javascript" type="text/javascript">
+   <font size="5" color="red"><center> // ERROR!!
+      document.write("Hello, world");
+   </font>
+   </script>
 
 You can include more than one script element within an HTML document, as shown in Document 1.4a, in which there are two separate script sections, 
 arbitrarily divided into a section above the horizontal rule (see the <hr /> tag) and another below the rule.
@@ -662,33 +690,33 @@ otra debajo la regla.
 
 Document 1.4a (HelloWorld3.htm)
 
-<html>
-<head>
-<title>Hello, world! (v.3)</title>
-</head>
-<body bgcolor="lightgreen" text="magenta">
-<h1 align="center">First JavaScript</h1>
+.. code:: Bash
 
-<script language="javascript" type="text/javascript">
-document.write("<font color='green'>
-This document was last modified on
-"+document.lastModified+"</font>");
-</script>
+   <html>
+   <head>
+   <title>Hello, world! (v.3)</title>
+   </head>
+   <body bgcolor="lightgreen" text="magenta">
+   <h1 align="center">First JavaScript</h1>
+   <script language="javascript" type="text/javascript">
+      document.write("<font color='green'>
+      This document was last modified on
+      "+document.lastModified+"</font>");
+   </script>
+   <hr />
 
-<hr />
+   <script language="javascript" type="text/javascript">
+   document.write("background = "+document.bgColor);
+   document.write("<br />font = " + document.fgColor);
+   document.write("<font size='5'
+   color='red'><center>Hello,world!</font><br />");
+   document.write("<font size='7' color='blue'>
+      He said, &quot;It's a beautiful day!&quot;
+   </center></font>");
+   </script>
 
-<script language="javascript" type="text/javascript">
-document.write("background = "+document.bgColor);
-document.write("<br />font = " + document.fgColor);
-document.write("<font size='5'
-color='red'><center>Hello,world!</font><br />");
-document.write("<font size='7' color='blue'>
-He said, &quot;It's a beautiful day!&quot;
-</center></font>");
-</script>
-
-</body>
-</html>
+   </body>
+   </html>
 
 (See Color Example 1 for full-color output.)
 
@@ -721,8 +749,10 @@ idea de si una página mostrada en un navegador es actual.
 
 Document 1.4a contains the following two statements, which access two more document properties:
 
-document.write("background = "+document.bgColor);
-document.write("<br />font = " + document.fgColor);
+.. code:: Bash
+
+   document.write("background = "+document.bgColor);
+   document.write("<br />font = " + document.fgColor);
 
 These display a code for the background and font colors.
 
@@ -735,12 +765,14 @@ HTML. Las cotizaciones son obligatorias en XHTML y siempre las usaremos. Puede u
 dobles se aceptan generalmente como estándar. Sin embargo, cuando se incluyen elementos HTML con atributos dentro de cadenas entrecomilladas, como en
 
 
-document.write("<font size='5'
-color='red'><center>Hello,world!</font><br />");
+.. code:: Bash
 
-document.write("<font size='7' color='blue'>
-He said, &quot;It's a beautiful day!&quot;
-</center></font>");
+   document.write("<font size='5'
+   color='red'><center>Hello,world!</font><br />");
+
+   document.write("<font size='7' color='blue'>
+   He said, &quot;It's a beautiful day!&quot;
+   </center></font>");
 
 then single quotes are required for the values in order to avoid conflict with the double quotes around the string.
 
@@ -756,31 +788,33 @@ idéntico al del Documento 1.4a.
 
 Document 1.4b (HelloWorld3HTML.htm)
 
-<html>
-<head>
-<title>Hello, world! (with HTML)</title>
+.. code:: Bash
 
-<script language="javascript" type="text/javascript">
-document.write(
-"<font color=©green©> This document was last modified on
-"+document.lastModified+"</font>");
-</script>
+   <html>
+   <head>
+   <title>Hello, world! (with HTML)</title>
 
-</head>
-<body bgcolor="lightgreen" text="magenta">
-<h1 align="center">First JavaScript</h1>
-<hr />
+   <script language="javascript" type="text/javascript">
+      document.write(
+      "<font color=©green©> This document was last modified on
+      "+document.lastModified+"</font>");
+   </script>
 
-<script language="javascript" type="text/javascript">
-document.write("background = "+document.bgColor);
-document.write("<br />font = " + document.fgColor);
-</script>
+   </head>
+   <body bgcolor="lightgreen" text="magenta">
+   <h1 align="center">First JavaScript</h1>
+   <hr />
 
-<font size="5" color="red"><center>Hello,world!</font><br />
-<font size="7" color="blue">
-He said, "It's a beautiful day! "</center></font>"
-</body>
-</html>
+   <script language="javascript" type="text/javascript">
+      document.write("background = "+document.bgColor);
+      document.write("<br />font = " + document.fgColor);
+   </script>
+
+   <font size="5" color="red"><center>Hello,world!</font><br />
+   <font size="7" color="blue">
+      He said, "It's a beautiful day! "</center></font>"
+   </body>
+   </html>
 
 In this case, there is actually a justification for putting one of the script sections inside the body of the document: This script is used to display 
 codes for the background and text colors, which are known only after they are set inside the body element.
@@ -802,6 +836,7 @@ objeto de documento JavaScript y debe escribirse con C mayúscula, como se muest
 
 
 Table 1.1. Some properties and methods of the document object
+
 Property or Method
 Property
 document.bgColor
@@ -836,7 +871,7 @@ Como HTML ignora los cambios de línea, el método writeln() normalmente no prod
 mostrará está dentro de un elemento previo, se mostrará el avance de línea.
 
 
-1.3 Accessing HTML Documents on the Web
+**1.3 Accessing HTML Documents on the Web**
 
 Documents intended for access by others on the World Wide Web are posted on a Web server, a computer system connected to the Internet. Colleges and 
 universities typically provide Web servers for use by their faculty and students. Individuals not affiliated with an institution may have to purchase 
@@ -919,32 +954,35 @@ documentos que cree usted mismo sean accesibles en Internet o en una intranet co
 basado en este libro, su instructor puede pedirle que publique las tareas en un sitio web.
 
 
-1.4 Another Example
+**1.4 Another Example**
 
 The following example shows how to include an image in an HTML
 document.
 
 Document 1.5 (house.htm)
 
-<html>
-<head>
-<title>Our New House</title>
-<script language="javascript" type="text/javascript">
-document.write("<font color='green'>This document was
-last modified on "+document.lastModified+"</font>");
-</script>
-</head>
-<body>
-<h1>Our New House</h1>
-<p>
-Here's the status of our new house. (We know you're
-fascinated!)</p>
-<!—Link to your image goes here. -->
-<img src="house.jpg" align="left" /><br />
-</body>
-</html>
+.. code:: Bash
 
-1.4 Another Example
+   <html>
+   <head>
+   <title>Our New House</title>
+   <script language="javascript" type="text/javascript">
+      document.write("<font color='green'>This document was
+      last modified on "+document.lastModified+"</font>");
+   </script>
+   </head>
+   <body>
+   <h1>Our New House</h1>
+   <p>
+      Here's the status of our new house. (We know you're
+      fascinated!)</p>
+   <!—Link to your image goes here. -->
+   <img src="house.jpg" align="left" /><br />
+   </body>
+   </html>
+
+**1.4 Another Example**
+
 19
 
 There are several image formats that are widely used in HTML documents, including image bitmaps (.bmp), Graphics Interchange Format (.gif), and Joint 
