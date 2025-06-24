@@ -1,7 +1,8 @@
 A Study of Intuitionistic Fuzzy Graph Using Morphological Operators and Its Application
 =======================================================================================
 
-Abstract The study focuses on some properties of mathematical morphological operators on intuitionistic fuzzy graphs(IFG). Morphological operators like 
+Abstract The study focuses on some properties of **mathematical morphological operators** on **intuitionistic fuzzy graphs**(IFG). Morphological 
+operators like 
 dilation and erosion and its composition are useful in the application of intuitionistic fuzzy graph. It is extended to study the topological 
 properties using the topological data analysis(TDA) with the help of bar codes and betti numbers obtained by constructing minimal spanning trees(MST) 
 which extracts topological properties of intuitionistic fuzzy graph. Finally, an algorithm for analyzing spread of disease is presented in this study.
