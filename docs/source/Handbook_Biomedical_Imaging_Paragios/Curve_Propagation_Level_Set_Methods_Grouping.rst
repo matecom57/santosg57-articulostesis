@@ -15,7 +15,13 @@ constraints and encode prior knowledge on the geometric form of the object to be
 recovered is presented. Promising experimental results demonstrate the potential of
 such a method.
 
-1 Introduction
+Resumen La segmentación de imágenes y la extracción de objetos se encuentran entre los temas más abordados en visión computacional. En este capítulo, presentamos un 
+tutorial completo sobre conjuntos de niveles para un paradigma de partición de marcos flexible que podría integrar el conocimiento previo, regional y basado en 
+bordes para la extracción de objetos. La idea central de este enfoque es realizar la partición de imágenes a través de la propagación de curvas/superficies planas. 
+Para ello, se presenta una función objetivo que busca representar las propiedades visuales esperadas del objeto, imponer ciertas restricciones de suavidad y 
+codificar el conocimiento previo sobre la forma geométrica del objeto a recuperar. Resultados experimentales prometedores demuestran el potencial de este método.
+
+**1 Introduction**
 
 Image segmentation has been a long term research initiative in computational vision.
 Extraction of prominent edges [14] and discontinuities between in-homogeneous
@@ -23,6 +29,7 @@ image regions was the first attempt to address segmentation. Statistical methods
 that aim to separate regions according to their visual characteristics was an attempt
 to better address the problem [11], while the snake/active contour model [16] was a
 breakthrough in the the domain.
+
 Objects are represented using parametric curves and segmentation is obtained
 through the deformation of such a curve towards the lowest potential of an objective
 function. Data-driven as well as internal smoothness terms were the components of
