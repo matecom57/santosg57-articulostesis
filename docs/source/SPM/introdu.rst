@@ -1,3 +1,6 @@
+Introducción a SPM 
+===================
+
 .. _SPM_fMRI_Introducción:
 
 ===================
