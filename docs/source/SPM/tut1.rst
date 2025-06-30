@@ -1,4 +1,4 @@
-Tutorial de SPM n.° 1: Descarga de datos
+Tutorial de SPM n. 1: Descarga de datos
 =====================================
 
 .. _SPM_01_Descarga de datos:
