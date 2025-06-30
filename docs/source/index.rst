@@ -22,4 +22,5 @@ Contents
    art01
    An_Introduction_HTML_JavaScript/index2
    art02
+   Handbook_Biomedical_Imaging_Paragios/Curve_Propagation_Level_Set_Methods_Grouping
 
