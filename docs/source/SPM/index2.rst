@@ -26,6 +26,8 @@ aprendiendo sobre los diferentes tipos de análisis de grupo y cómo realizar an
    :caption: Análisis de principio a fin con SPM
 
    introdu
+   tut1
+
    SPM_Curso_corto/SPM_01_Descarga de datos
    SPM_Curso corto/SPM_02_Flanker
    SPM_Curso corto/SPM_03_Mirando los datos
