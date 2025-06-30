@@ -25,5 +25,5 @@ Contents
    Handbook_Biomedical_Imaging_Paragios/Curve_Propagation_Level_Set_Methods_Grouping
    Biology_3E_Wunschiers/Biology_3E_Wunschiers_C01
    Articulos/articulos
-   SPM/spm
+   SPM/index2
 
