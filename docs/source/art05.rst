@@ -170,7 +170,7 @@ constraints
 
 .. math::
 
-   \begin{array}{rr}
+   \begin{array}{rl}
    x'̇(t) = & f(t, x(t), x(t −r),u(t),u(t −s)),  t \in [a,b]  \\
    x(t) = & \varphi(t), t ∈ [a−r,a]  \\
    \end{array}
