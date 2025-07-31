@@ -79,6 +79,13 @@ control–state inequality constraints have not yet been considered in the liter
 this paper is to derive a Pontryagin-type minimum (maximum) principle for this class of delayed
 control problems. 
 
+Angell y Kirsch [9] tratan ecuaciones diferenciales funcionales con restricciones de desigualdad de estado en el 
+espacio de funciones. Sin embargo, no analizan la regularidad del multiplicador asociado con la restricción de 
+estado ni proporcionan un ejemplo numérico con una restricción pura en el espacio de estados. Hasta donde 
+sabemos, los problemas de control óptimo con retardos constantes en las variables de estado y control, y 
+restricciones mixtas de desigualdad de control-estado, aún no se han considerado en la literatura. El primer 
+objetivo de este trabajo es derivar un principio de mínimo (máximo) de tipo Pontryagin para esta clase de 
+problemas de control retardado.
 
 Concerning the development of numerical methods and the numerical treatment
 of practical examples, our impression is that this topic has not yet been adequately addressed in the
@@ -91,6 +98,16 @@ number of stages. Therefore, the second goal of this paper is the presentation o
 nonlinear programming methods that provide the optimal state, control and adjoint functions and
 allow for an accurate check of the necessary conditions.
 
+Con respecto al desarrollo de métodos numéricos y el tratamiento numérico de ejemplos prácticos, nuestra 
+impresión es que este tema aún no se ha abordado adecuadamente en la literatura. Bader [10] utiliza métodos de 
+colocación para resolver el problema del valor en la frontera para la variable de estado retardada y la variable 
+adjunta avanzada. Resuelve con éxito varios ejemplos académicos, pero su método no proporciona resultados 
+precisos para el problema más complejo del reactor CSTR descrito en Soliman y Ray [5, 11]. Un problema similar 
+del reactor CSTR es considerado por Oh y Luus [12] y Dadebo y Luus [13], quienes utilizan el método de 
+programación dinámica diferencial con un número moderado de etapas. Por lo tanto, el segundo objetivo de este 
+artículo es la presentación de métodos de discretización y programación no lineal que proporcionen las funciones 
+óptimas de estado, control y adjuntas y permitan una verificación precisa de las condiciones necesarias.
+
 The organization of this paper is as follows. Section 2 presents the statement of the delayed
 control problem with mixed state–control constraints. In Section 3, we recall the minimum principle
 for nondelayed control problems with control–state constraints. Here, a crucial feature is that
@@ -99,7 +116,11 @@ Section 4 is devoted to the derivation of first-order necessary optimality condi
 optimal control problem given in Section 2. Essentially, the augmentation approach of Guinn [6]
 is generalized, which allows to use the minimum principle in Section 3. For technical reasons, we
 need the assumption that the ratio of the time delays in state and control is a rational number. The
-analysis in this section is based on the theses of Gollmann  ̈ [14] and Kern [15]. In Section 5, the
+analysis in this section is based on the theses of Gollmann  ̈ [14] and Kern [15]. 
+
+
+
+In Section 5, the
 Euler discretization for the delayed control problem is discussed, which leads to a high-dimensional
 nonlinear programming problem. As in the nondelayed case, it can be shown that the Lagrange
 multipliers corresponding to the optimization problem constitute an Euler discretization for the
