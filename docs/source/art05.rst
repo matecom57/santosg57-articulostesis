@@ -166,6 +166,13 @@ mixed control–state inequality constraints will be referred to as problem (ROC
 subject to the retarded differential equation, boundary conditions and mixed control–state inequality
 constraints
 
+.. math::
+
+   \begin{matrix}
+   x'̇(t) & = & f(t, x(t), x(t −r),u(t),u(t −s)),  t \in [a,b]  \\
+   x(t) & = & \varphi(t), t ∈ [a−r,a]  \\
+   \end{matrix}
+
 
 x ̇(t) = f (t, x(t), x(t −r),u(t),u(t −s)), a.e. t ∈ [a,b] (2)
 x(t) = (t), t ∈ [a−r,a] (3)
