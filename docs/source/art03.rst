@@ -117,11 +117,10 @@ Hamiltonian is nonlinear in 𝑢.
 
 .. math::
 
-   \frac{\partial H}{\partial u} = 0 at 𝑢^∗ ⟹   𝑓_𝑢 + 𝜆𝑔_𝑢 = 0 Optimality Condition(2.05)
-
-   𝜆′ = − \frac{}{\partial H}{\partial u} ⟹   𝜆′ = ℎ(𝑡, 𝑥, 𝜆, 𝑢) − (𝑓_𝑥 + 𝜆𝑔_𝑥 ) Adjoint Equation(2.06)
-
-   𝜆(𝑡_1) = 0 Transversality Condition(2.07)
+   \begin{matrix}
+   \frac{\partial H}{\partial u} = 0 \text{ at } 𝑢^∗ ⟹   𝑓_𝑢 + 𝜆𝑔_𝑢 = 0 \text{ Optimality Condition(2.05) } \\
+   𝜆' = − \frac{\partial H}{\partial x}  ⟹   𝜆' = ℎ(𝑡, 𝑥, 𝜆, 𝑢) − (𝑓_𝑥 + 𝜆𝑔_𝑥 ) \text{ Adjoint Equation(2.06)} \\
+   𝜆(𝑡_1) = 0 \text{ Transversality Condition(2.07)} \\
 
    𝑥' = 𝑔(𝑡, 𝑥, 𝑢) Dynamics of the State Equation (2.08)
 
