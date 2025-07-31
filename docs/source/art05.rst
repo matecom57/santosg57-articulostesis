@@ -40,6 +40,16 @@ control delays. Halany [4] proves a maximum principle for optimal control proble
 constant delays in state and control variables that, however, are chosen to be equal for state and
 control. 
 
+Los sistemas de control diferencial con retardos en las variables de estado o de control desempeñan un papel 
+importante en el modelado de fenómenos de la vida real en diversos campos de aplicación. Se han dedicado 
+numerosos artículos a problemas de control óptimo retardado (otra terminología: retardado, hereditario) y a la 
+derivación de las condiciones de optimalidad necesarias. Repasemos brevemente algunos artículos sobre diferentes 
+clases de problemas de control. Una introducción a los problemas de control con retardo temporal se puede 
+encontrar en Oguzt ˇ oreli ̈ [1]. Kharatishvili [2] fue el primero en proporcionar un principio máximo para 
+problemas de control óptimo con un retardo de estado constante. En [3], presentó resultados similares para 
+problemas de control con retardos de control puros. Halany [4] demuestra un principio máximo para problemas de 
+control óptimo con múltiples retardos constantes en las variables de estado y de control que, sin embargo, se 
+eligen para que sean iguales para el estado y el control.
 
 Similar results were obtained by Ray and Soliman [5]. Guinn [6] sketches a simple method
 for obtaining necessary conditions for control problems with a constant delay in the state variable.
@@ -51,13 +61,26 @@ provide a unified approach to control problems with delays in the state variable
 theory of necessary conditions for optimization problems in function spaces. All articles mentioned
 so far do not consider general control or state inequality constraints.
 
+Ray y Soliman [5] obtuvieron resultados similares. Guinn [6] describe un método simple para obtener las 
+condiciones necesarias para problemas de control con un retraso constante en la variable de estado. Sugiere 
+ampliar el problema de control retrasado para obtener un problema de control sin retraso de mayor dimensión al 
+que se aplica el principio del máximo estándar. Banks [7] deriva un principio del máximo para sistemas de control 
+con un retraso dependiente del tiempo en la variable de estado. Se admiten retrasos en el control para sistemas 
+lineales en la variable de control. Colonius y Hinrichsen [8] proporcionan un enfoque unificado para controlar 
+problemas con retrasos en la variable de estado aplicando la teoría de las condiciones necesarias para problemas 
+de optimización en espacios de funciones. Todos los artículos mencionados hasta ahora no consideran restricciones 
+generales de control o desigualdad de estado.
+
 Angell and Kirsch [9] treat functional differential equations with function-space state inequality
 constraints. However, they do not discuss the regularity of the multiplier associated with the state
 constraint and do not provide a numerical example with a pure state space constraint. To our
 knowledge, optimal control problems with constant delays in state and control variables and mixed
 control–state inequality constraints have not yet been considered in the literature. The first goal in
 this paper is to derive a Pontryagin-type minimum (maximum) principle for this class of delayed
-control problems. Concerning the development of numerical methods and the numerical treatment
+control problems. 
+
+
+Concerning the development of numerical methods and the numerical treatment
 of practical examples, our impression is that this topic has not yet been adequately addressed in the
 literature. Bader [10] uses collocation methods to solve the boundary value problem for the retarded
 state variable and advanced adjoint variable. He successfully solves several academic examples, but
