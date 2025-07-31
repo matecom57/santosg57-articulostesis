@@ -1,5 +1,4 @@
-Optimal control problems with delays in state and control variables subject to mixed control–state constraints art05 - 
-2008
+Optimal control problems with delays in state and control variables subject to mixed control–state constraints art05 - 2008
 =============================================================
 
 Optimal control problems with delays in state and control variables are studied. Constraints are imposed
@@ -12,11 +11,23 @@ associated with the programming problem provide a consistent discretization of t
 equation for the delayed control problem. An analytical example and numerical examples from chemical
 engineering and economics illustrate the results.
 
-KEY WORDS: retarded optimal control problems; delays in state and control; mixed control–state
-inequality constraints; Pontryagin’s minimum principle; discretization methods; optimal
+Se estudian problemas de control óptimo con retrasos en las variables de estado y control. Se imponen 
+restricciones como restricciones mixtas de desigualdad control-estado. Se establecen las condiciones de 
+optimalidad necesarias mediante el principio del mínimo de Pontryagin. La demostración procede ampliando el 
+problema de control retardado a un problema sin retraso con condiciones de contorno terminales mixtas, al que se 
+aplica el principio del mínimo de Pontryagin. Se discuten métodos de discretización que transforman el problema 
+de control óptimo retardado en un problema de programación no lineal a gran escala. Se demuestra que los 
+multiplicadores de Lagrange asociados al problema de programación proporcionan una discretización consistente de 
+la ecuación adjunta avanzada para el problema de control retardado. Un ejemplo analítico y ejemplos numéricos de 
+ingeniería química y economía ilustran los resultados.
+
+ KEY WORDS: retarded optimal control problems; delays in 
+state and control; 
+mixed control–state inequality constraints; Pontryagin’s minimum principle; discretization methods; optimal
 control of a CSTR reactor; optimal fishing
 
 1. INTRODUCTION
+---------------
 
 Differential control systems with delays in state or control variables play an important role in
 the modelling of real-life phenomena in various fields of applications. Many papers have been
@@ -24,11 +35,13 @@ devoted to delayed (other terminology: time lag, retarded, hereditary) optimal c
 the derivation of necessary optimality conditions. Let us briefly review some papers concerning
 different classes of control problems. An introduction to time delay control problems can be found
 in Oguzt ˇ oreli  ̈ [1]. Kharatishvili [2] was first to provide a maximum principle for optimal control
-
 problems with a constant state delay. In [3], he gave similar results for control problems with pure
 control delays. Halany [4] proves a maximum principle for optimal control problems with multiple
 constant delays in state and control variables that, however, are chosen to be equal for state and
-control. Similar results were obtained by Ray and Soliman [5]. Guinn [6] sketches a simple method
+control. 
+
+
+Similar results were obtained by Ray and Soliman [5]. Guinn [6] sketches a simple method
 for obtaining necessary conditions for control problems with a constant delay in the state variable.
 He suggests to augment the delayed control problem that yields a higher-dimensional undelayed
 control problem to which the standard maximum principle is applicable. Banks [7] derives a
@@ -37,6 +50,7 @@ in the control are admitted for systems linear in the control variable. Colonius
 provide a unified approach to control problems with delays in the state variable by applying the
 theory of necessary conditions for optimization problems in function spaces. All articles mentioned
 so far do not consider general control or state inequality constraints.
+
 Angell and Kirsch [9] treat functional differential equations with function-space state inequality
 constraints. However, they do not discuss the regularity of the multiplier associated with the state
 constraint and do not provide a numerical example with a pure state space constraint. To our
@@ -53,6 +67,7 @@ Dadebo and Luus [13], who use the differential dynamic programming method with a
 number of stages. Therefore, the second goal of this paper is the presentation of discretization and
 nonlinear programming methods that provide the optimal state, control and adjoint functions and
 allow for an accurate check of the necessary conditions.
+
 The organization of this paper is as follows. Section 2 presents the statement of the delayed
 control problem with mixed state–control constraints. In Section 3, we recall the minimum principle
 for nondelayed control problems with control–state constraints. Here, a crucial feature is that
