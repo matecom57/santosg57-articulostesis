@@ -26,6 +26,7 @@ state and control;
 mixed control–state inequality constraints; Pontryagin’s minimum principle; discretization methods; optimal
 control of a CSTR reactor; optimal fishing
 
+1111
 1. INTRODUCTION
 ---------------
 
@@ -148,6 +149,7 @@ la solución numérica y a la verificación del principio de mínimos para dos e
 tomado de [5, 11], describe el control óptimo de un reactor de tanque químico (reactor CSTR), mientras que el 
 segundo se presenta en la explotación óptima de un recurso (pesca óptima).
 
+2222
 
 2. OPTIMAL CONTROL PROBLEMS WITH DELAYS IN STATE AND CONTROL 
 ------------------------------------------------------------
@@ -168,10 +170,10 @@ constraints
 
 .. math::
 
-   \begin{matrix}
-   x'̇(t) & = & f(t, x(t), x(t −r),u(t),u(t −s)),  t \in [a,b]  \\
-   x(t) & = & \varphi(t), t ∈ [a−r,a]  \\
-   \end{matrix}
+   \begin{array}{rr}
+   x'̇(t) = & f(t, x(t), x(t −r),u(t),u(t −s)),  t \in [a,b]  \\
+   x(t) = & \varphi(t), t ∈ [a−r,a]  \\
+   \end{array}
 
 
 x ̇(t) = f (t, x(t), x(t −r),u(t),u(t −s)), a.e. t ∈ [a,b] (2)
