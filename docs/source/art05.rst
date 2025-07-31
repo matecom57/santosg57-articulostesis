@@ -118,7 +118,15 @@ is generalized, which allows to use the minimum principle in Section 3. For tech
 need the assumption that the ratio of the time delays in state and control is a rational number. The
 analysis in this section is based on the theses of Gollmann  ̈ [14] and Kern [15]. 
 
-
+Este artículo se organiza de la siguiente manera. La Sección 2 presenta el planteamiento del problema de control 
+retardado con restricciones mixtas de estado-control. En la Sección 3, recordamos el principio de mínimo para 
+problemas de control sin retardo con restricciones de estado-control. Aquí, una característica crucial es que las 
+condiciones de contorno inicial y terminal deben considerarse en una forma mixta general. La Sección 4 está 
+dedicada a la derivación de las condiciones de optimalidad necesarias de primer orden para el problema de control 
+óptimo retardado dado en la Sección 2. Esencialmente, el enfoque de aumento de Guinn [6] es generalizado, lo que 
+permite utilizar el principio de mínimo en la Sección 3. Por razones técnicas, necesitamos la suposición de que 
+la relación de los retardos de tiempo en el estado y el control es un número racional. El análisis en esta 
+sección se basa en las tesis de Gollmann ̈ [14] y Kern [15].
 
 In Section 5, the
 Euler discretization for the delayed control problem is discussed, which leads to a high-dimensional
@@ -131,12 +139,24 @@ first example is taken from [5, 11] and describes the optimal control of a chemi
 (CSTR reactor), whereas the second example arises in the optimal harvesting of a resource (optimal
 fishing).
 
-2. OPTIMAL CONTROL PROBLEMS WITH DELAYS IN STATE AND CONTROL
+En la Sección 5, se analiza la discretización de Euler para el problema de control retardado, lo que da lugar a 
+un problema de programación no lineal de alta dimensión. Al igual que en el caso no retardado, se puede demostrar 
+que los multiplicadores de Lagrange correspondientes al problema de optimización constituyen una discretización 
+de Euler para las ecuaciones adjuntas avanzadas. En la Sección 6, se presenta un ejemplo analítico que permite 
+comprobar la precisión de la solución numérica para diferentes tamaños de paso. Las Secciones 7 y 8 se dedican a 
+la solución numérica y a la verificación del principio de mínimos para dos ejemplos prácticos. El primer ejemplo, 
+tomado de [5, 11], describe el control óptimo de un reactor de tanque químico (reactor CSTR), mientras que el 
+segundo se presenta en la explotación óptima de un recurso (pesca óptima).
+
+
+2. OPTIMAL CONTROL PROBLEMS WITH DELAYS IN STATE AND CONTROL 
 ------------------------------------------------------------
 
-We consider retarded optimal control problems with constant delays r0 in the state variable
-x(t)∈Rn and s0 in the control variable u(t)∈Rm. The following retarded control problem with
+We consider retarded optimal control problems with constant delays :math:`r \geg 0` in the state variable
+:math:`x(t) \in  \mathbb{R}^n` and  :math:`s \geg 0` in the control variable :math:`u(t) \in \mathbb{R}^n`. 
+The following retarded control problem with
 mixed control–state inequality constraints will be referred to as problem (ROCP):
+
 Minimize J (u, x)=g(x(b))+
  b
 a
