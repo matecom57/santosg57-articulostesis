@@ -152,17 +152,20 @@ segundo se presenta en la explotación óptima de un recurso (pesca óptima).
 2. OPTIMAL CONTROL PROBLEMS WITH DELAYS IN STATE AND CONTROL 
 ------------------------------------------------------------
 
-We consider retarded optimal control problems with constant delays :math:`r \geg 0` in the state variable
-:math:`x(t) \in  \mathbb{R}^n` and  :math:`s \geg 0` in the control variable :math:`u(t) \in \mathbb{R}^n`. 
+We consider retarded optimal control problems with constant delays :math:`r \geq 0` in the state variable
+:math:`x(t) \in  \mathbb{R}^n` and  :math:`s \geq 0` in the control variable :math:`u(t) \in \mathbb{R}^n`. 
 The following retarded control problem with
 mixed control–state inequality constraints will be referred to as problem (ROCP):
 
-Minimize J (u, x)=g(x(b))+
- b
-a
-L(t, x(t), x(t −r),u(t),u(t −s))dt (1)
+.. math::
+
+   \text{Minimize} J(u, x)=g(x(b))+ \int_a^b L(t, x(t), x(t −r),u(t),u(t −s))d
+
+(1)
+
 subject to the retarded differential equation, boundary conditions and mixed control–state inequality
 constraints
+
 
 x ̇(t) = f (t, x(t), x(t −r),u(t),u(t −s)), a.e. t ∈ [a,b] (2)
 x(t) = (t), t ∈ [a−r,a] (3)
