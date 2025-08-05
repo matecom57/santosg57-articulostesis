@@ -69,6 +69,15 @@ and the terminal time are integer multiples of a joint stepsize. This assumption
 also underlies the discretization and nonlinear programming techniques that are
 briefly reviewed in Section 3. 
 
+En la Sección 2, consideramos problemas de control óptimo con múltiples retardos 
+en las variables de control y de estado. El proceso de control puede estar 
+sujeto a restricciones mixtas de control y estado. Revisamos las condiciones de 
+optimalidad necesarias derivadas en [10] mediante un Principio Mínimo de tipo 
+Pontryagin. Se asume que se cumple el supuesto de conmensurabilidad, que 
+requiere que los retardos y el tiempo terminal sean múltiplos enteros de un 
+tamaño de paso conjunto. Este supuesto también sustenta las técnicas de 
+discretización y programación no lineal que se revisan brevemente en la Sección 
+3.
 
 In Section 4, we study the delay differential model for
 tumour-immune-response with chemo-immunotherapy in Rihan et al. [21]. Aside
@@ -82,6 +91,19 @@ of bang-bang type. For the non-delayed problem, we can verify the second-order
 sufficient conditions in [19, 17] and thus show that the computed solution provides
 a strict strong minimum.
 
+En la Sección 4, estudiamos el modelo diferencial de retardo para la respuesta 
+inmune tumoral con quimioinmunoterapia en Rihan et al. [21]. Además del retraso 
+de estado en este modelo, introducimos un retraso de tiempo en la variable de 
+control que representa la terapia inmune. El retraso explica el hecho de que el 
+sistema inmune humano necesita cierto tiempo para responder a la terapia inmune. 
+En contraste con los objetivos de tipo L2 en [21], consideramos objetivos de 
+tipo L1 caracterizados por controles de aparición lineal que parecen ser más 
+apropiados en el marco biológico; cf. las observaciones en [22]. Los cálculos 
+muestran que todos los controles son de tipo bang-bang. Para el problema sin 
+retraso, podemos verificar las condiciones suficientes de segundo orden en [19, 
+17] y, por lo tanto, demostrar que la solución calculada proporciona un mínimo 
+fuerte estricto.
+
 Section 5 considers the delay differential model in [7] describing the spread of
 Hepatitis B virus (HBV). The dynamical model exhibits a delay in the state vari-
 ables. We introduce a control variable into this model and formulate an optimal
@@ -89,6 +111,16 @@ control problem using L1 -type objectives. Again, all controls are of bang-bang 
 We show that the non-delayed bang-bang control provides a strict strong minimum,
 whereas the delayed controls are extremal solutions that satisfy the necessary con-
 ditions with high accuracy.
+
+La Sección 5 considera el modelo diferencial de retardo en [7], que describe la 
+propagación del virus de la hepatitis B (VHB). El modelo dinámico presenta un 
+retraso en las variables de estado. Introducimos una variable de control en este 
+modelo y formulamos un problema de control óptimo utilizando objetivos de tipo 
+L1. Nuevamente, todos los controles son de tipo bang-bang. Demostramos que el 
+control bang-bang sin retardo proporciona un mínimo fuerte estricto, mientras 
+que los controles retardados son soluciones extremales que satisfacen las 
+condiciones necesarias con alta precisión.
+
 
 2. Optimal control problems with multiple time-delays in state and control variables.
 ------------------------------------------------------------------------------------
@@ -101,12 +133,12 @@ the control variable at time :math:`t ∈ [0, t_f ]` with fixed terminal time :m
 delays in the state and control variables are given by a constant vector :math:`(τ_1 , ... , τ_d ) ∈
 R^d` satisfying
 
-.. math:
+.. math::
 
    0 =: τ_0 < τ1 < ... < τ_d .
 
-Thus τ0 represents the non-delayed variables. In [9, 10] we have studied the fol-
-lowing optimal control problem with multiple time-delays and mixed control-state
+Thus :math:`τ`_0` represents the non-delayed variables. In [9, 10] we have 
+studied the following optimal control problem with multiple time-delays and mixed control-state
 constraints (MDOCP): determine a pair of functions (x, u) ∈ W 1,∞ ([0, tf ], Rn ) ×
 L∞ ([0, tf ], Rm ) that minimize the functional in Mayer form
 
