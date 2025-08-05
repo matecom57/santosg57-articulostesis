@@ -459,54 +459,57 @@ is given by
 The initial values and initial functions for the delayed state and control variables
 are as follows:
 
-E(0) =
-T (0) =
-N (0) =
-U (0) =
-E0 = 0.3,
-T0 = 300,
-N0 = 0.9,
-U0 = 0.0.
-E(t) = E0
-T (t) = T0
-u2 (t) = 0
-∀ − τ1 ≤ t ≤ 0,
-∀ − τ1 ≤ t ≤ 0,
-∀ − τ2 ≤ t < 0.
+E(0) = E0 = 0.3, E(t) = E0 ∀ − τ1 ≤ t ≤ 0,
+
+T (0) = T0 = 300, T (t) = T0 ∀ − τ1 ≤ t ≤ 0,
+
+N (0) = N0 = 0.9, u2 (t) = 0 ∀ − τ2 1 ≤ t ≤ 0,
+
+U (0) = U0 = 0.0. 
+
 (26)
 
 We shall consider the control constraints
 
-0 ≤ uk (t) ≤ uk,max
-∀ t ∈ [0, tf ]
-(k = 1, 2).
+.. math::
+
+   0 ≤ _uk (t) ≤_{ uk,m}ax∀ t ∈ [0,_ tf ](k = 1, 2).
+
 
 Let us denote the state and control variables by
 
-x = (E, T, N, U ) ∈ R4 ,
-u = (u1 , u2 ) ∈ R2 .
+.. math::
+
+   x = (E, T, N, U ) ∈ ^R4 ,u = (_u1 , _u2 ) ∈^ R2 .
 
 For notational convenience, we simplify the notations (7) for the delayed state and
 control variables. In the context of the dynamical system (25) it is more convenient
 to consider the delayed state variables y1 , y2 and control variable v2 defined by
 
-y1 (t) = x1 (t − τ1 ) = E(t − τ1 ), y2 (t) = x2 (t − τ1 ) = T (t − τ1 ),
-v2 (t) = u2 (t − τ2 ).
+.. math::
+   
+   \begin{align}
+   y_1 (t) =& x_1 (t-\tau_1 ) = E(t- \tau_1 ), y_2 (t) = x_2 (t - \tau_1 ) = T (t - \tau_1 ) \\
+   v_2 (t) = & u2 (t- \tau_2 )
+   \end{align}
+
 (28)
 
 With these notations the dynamical system (25) can be written as
 
-ẋ(t) = f (x(t), y1 (t), y2 (t), u(t), v2 (t)).
+.. math::
+
+   \dot{x}(t) = f (x(t), y_1 (t), y_2 (t), u(t), v_2 (t)).
+
 (29)
 
-Then the optimal control problem is as follows: determine a control function u =
-(u1 , u2 ) ∈ L∞ ([0, tf ], R2 ) that minimizes the objective functional
+Then the optimal control problem is as follows: determine a control function :math:`u =(u_1 , u_2 ) ∈ ^{L}∞ ([0,_ tf ],^2` ) 
+that minimizes the objective functional
 
-Z tf
-Jp (x, u) =
-(T (t) − E(t) + B1 (u1 (t))p + B2 (u2 (t))p ) dt (p = 1, 2)
+.. math::
+
+   J_p (x, u) = \int_0^{t_f} (T (t) − E(t) + _B1 (_u1 (t)^)p + _B2 (_u2 (t)^)p ) dt (p = 1, 2)
 (30)
-0
 
 subject to the dynamic constraints (25), initial conditions (26) and control con-
 straints (27). The objective functional (30) represents a trade-off between minimiz-
