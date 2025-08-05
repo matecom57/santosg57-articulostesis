@@ -61,12 +61,14 @@ ditions with high accuracy.
 2.1. Problem statement. 
 -----------------------
 
-Let x(t) ∈ Rn denote the state variable and u(t) ∈ Rm
-the control variable at time t ∈ [0, tf ] with fixed terminal time tf > 0. The time-
-delays in the state and control variables are given by a constant vector (τ1 , . . . , τd ) ∈
-Rd satisfying
+Let :math:`x(t) ∈ R^n` denote the state variable and :math:`u(t) ∈ R^m`
+the control variable at time :math:`t ∈ [0, t_f ]` with fixed terminal time :math:`t_f > 0`. The time-
+delays in the state and control variables are given by a constant vector :math:`(τ_1 , ... , τ_d ) ∈
+R^d` satisfying
 
-0 =: τ0 < τ1 < . . . < τd .
+.. math:
+
+   0 =: τ_0 < τ1 < ... < τ_d .
 
 Thus τ0 represents the non-delayed variables. In [9, 10] we have studied the fol-
 lowing optimal control problem with multiple time-delays and mixed control-state
