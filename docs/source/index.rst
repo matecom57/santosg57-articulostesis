@@ -30,4 +30,4 @@ Contents
    art04
    art05
    GenerativeIA/doc01
-
+   art06
