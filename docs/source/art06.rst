@@ -421,9 +421,9 @@ in Theorem 2.3.
 
 4.1. Optimal control problem. 
 -----------------------------
+4444
 
-We consider the delay differential model in Ri-
-han et al. [21] that proposes a chemo-immuno-therapy of cancer. The authors
+We consider the delay differential model in Rihan et al. [21] that proposes a chemo-immuno-therapy of cancer. The authors
 introduce a time delay only in the state variable and present a stability analysis
 of drug free steady states. We shall extend the model by including also a control
 delay in the control u2 of immune therapy. The delay accounts for the fact that the
@@ -431,28 +431,32 @@ human immune system takes some time to respond to the immune therapy. The
 state and variables have the following meaning:
 
 E: concentration of effector cells (plasma B cells, producing antibodies).
+
 T : concentration of tumour cells.
+
 N : concentration of healthy cells.
+
 U : concentration of cytostatic agent for chemotherapy.
+
 u1 : dose control for chemotherapy,
+
 u2 : dose control for immune therapy of the effector cells.
 
 Denoting the state delay by τ1 and the control delay by τ2 , the dynamical system
 is given by
 
-ρ
-−
-µ
-E(t − τ1 )T (t − τ1 )
-Ė(t) = σ + η+T (t−τ
-e
-1)
-−(δ + a1 (1 − e−U (t) ))E(t) + u2 (t − τ2 )s1 ,
-␁
-Ṫ (t) = r2 (1 − βT (t)) − nT E(t) − c1 N (t) − a2 (1 − e−U (t) ) T (t),
-␁
-Ṅ (t) = r3 (1 − β2 N (t)) − c2 T (t) − a3 (1 − e−U (t) ) N (t),
-U̇ (t) = u1 (t) − d1 U (t).
+.. math::
+
+   \begin{matrix}
+   \dot{E}(t) = & \sigma +  (\frac{\rho}{\eta  + T(t - \tau_1)})E(t - \tau_1) 
+T(t -\tau_1) - (\delta + a_1(1 - e^{-U(t)})) E(t) + u_2(t - \tau_2)s_1  \\
+   \dot{T}(t) = & ( r_2(1 - \beta T(t)) − n_TE(t) - c_1N(t) - a_2(1 - 
+e^{−U(t)})T(t),  \\
+   \dot{N}(t) = & ( r_3(1 − \beta_2 N(t)) -  c_2T(t) - a_3(1 -  e^{ −U(t}) ) 
+N(t),  \\
+   \dot{U}(t) = & u_1(t) - d_1 U(t). 
+   \end{matrix} 
+
 (25)
 
 The initial values and initial functions for the delayed state and control variables
