@@ -1,7 +1,9 @@
 OPTIMAL CONTROL PROBLEMS WITH TIME DELAYS: TWO CASE STUDIES IN BIOMEDICINE . art06 - 2018
 =============================================================
 
-Abstract. There exists an extensive literature on delay differential models
+Abstract. 
+
+There exists an extensive literature on delay differential models
 in biology and biomedicine, but only a few papers study such models in the
 framework of optimal control theory. In this paper, we consider optimal control
 problems with multiple time delays in state and control variables and present
