@@ -448,12 +448,9 @@ is given by
 .. math::
 
    \begin{matrix}
-   \dot{E}(t) = & \sigma +  (\frac{\rho}{\eta  + T(t - \tau_1)})E(t - \tau_1) 
-T(t -\tau_1) - (\delta + a_1(1 - e^{-U(t)})) E(t) + u_2(t - \tau_2)s_1  \\
-   \dot{T}(t) = & ( r_2(1 - \beta T(t)) − n_TE(t) - c_1N(t) - a_2(1 - 
-e^{−U(t)})T(t),  \\
-   \dot{N}(t) = & ( r_3(1 − \beta_2 N(t)) -  c_2T(t) - a_3(1 -  e^{ −U(t}) ) 
-N(t),  \\
+   \dot{E}(t) = & \sigma +  (\frac{\rho}{\eta  + T(t - \tau_1)})E(t - \tau_1) T(t -\tau_1) - (\delta + a_1(1 - e^{-U(t)})) E(t) + u_2(t - \tau_2)s_1  \\
+   \dot{T}(t) = & ( r_2(1 - \beta T(t)) − n_TE(t) - c_1N(t) - a_2(1 - e^{−U(t)})T(t),  \\
+   \dot{N}(t) = & ( r_3(1 − \beta_2 N(t)) -  c_2T(t) - a_3(1 -  e^{ −U(t}) N(t),  \\
    \dot{U}(t) = & u_1(t) - d_1 U(t). 
    \end{matrix} 
 
