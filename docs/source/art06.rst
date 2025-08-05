@@ -135,18 +135,23 @@ R^d` satisfying
 
 .. math::
 
-   0 =: τ_0 < τ1 < ... < τ_d .
+   0 =: τ_0 < τ_1 < ... < τ_d .
 
-Thus :math:`τ`_0` represents the non-delayed variables. In [9, 10] we have 
+Thus :math:`τ_0` represents the non-delayed variables. In [9, 10] we have 
 studied the following optimal control problem with multiple time-delays and mixed control-state
-constraints (MDOCP): determine a pair of functions (x, u) ∈ W 1,∞ ([0, tf ], Rn ) ×
-L∞ ([0, tf ], Rm ) that minimize the functional in Mayer form
+constraints (MDOCP): determine a pair of functions :math:`(x, u) ∈ ^{1,∞}, 
+([0, t_f ], R^n ) × L^{∞} ([0, _f ], R^m )` that minimize the functional in 
+Mayer 
+form
 
-J(x, u) = g(x(tf ))
+.. math::
+
+   J(x, u) = g(x(t_f ))
 
 (1)
 
-subject to the delayed (retarded) differential equation, boundary conditions and
+subject to the delaoyed (retarded) differential equation, boundary conditions 
+and
 mixed control-state inequality constraints
 
 ẋ(t) = f (t, x(t − τ0 ), . . . , x(t − τd ), u(t − τ0 ), . . . , u(t − τd )), a.e. t ∈ [0, tf ], (2)
