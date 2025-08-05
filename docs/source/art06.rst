@@ -17,6 +17,24 @@ type. In the second case study, we introduce a control variable in the delay
 differential model of Hepatitis B virus infection developed in [7]. For L1 -type
 objectives we obtain extremal controls of bang-bang type.
 
+Resumen. Existe una extensa literatura sobre modelos diferenciales de retardo en 
+biología y biomedicina, pero solo unos pocos artículos estudian dichos modelos 
+en el marco de la teoría de control óptimo. En este artículo, consideramos 
+problemas de control óptimo con múltiples retrasos de tiempo en variables de 
+estado y control y presentamos dos aplicaciones en biomedicina. Después de 
+discutir las condiciones de optimalidad necesarias para problemas de control 
+óptimo retardado con restricciones de estado de control, proponemos métodos de 
+discretización por los cuales el problema de control óptimo retardado se 
+transforma en un problema de programación no lineal a gran escala. El primer 
+estudio de caso se ocupa del modelo diferencial de retardo en [21] que describe 
+la respuesta inmune del tumor a una quimioinmunoterapia. Asumiendo objetivos de 
+tipo L1, que son lineales en control, obtenemos controles óptimos de tipo 
+bang-bang. En el segundo estudio de caso, introducimos una variable de control 
+en el modelo diferencial de retardo de la infección por el virus de la hepatitis 
+B desarrollado en [7]. Para objetivos de tipo L1 obtenemos controles extremos de 
+tipo bang-bang.
+
+
 1. Introduction. 
 ----------------
 
@@ -30,6 +48,18 @@ recent papers [15, 21, 23]. The aim of this paper is to present two case studies
 biomedicine which illustrate the application of delayed optimal control problems and
 demonstrate that there exist efficient numerical techniques to solve such problems.
 
+Los sistemas dinámicos diferenciales con retardos desempeñan un papel importante 
+en el modelado de fenómenos reales en diversos campos de aplicación. Existe una 
+extensa literatura sobre modelos diferenciales con retardos en biología y 
+biomedicina; véanse, por ejemplo, [6, 7, 16, 18, 24, 26, 27]. Si bien existe una 
+vasta literatura sobre problemas de control óptimo con retardos en variables de 
+control y de estado, hasta la fecha solo unos pocos artículos han aplicado el 
+marco de control óptimo con retardos a la biomedicina; véanse los artículos 
+recientes [15, 21, 23]. El objetivo de este artículo es presentar dos casos 
+prácticos en biomedicina que ilustran la aplicación de problemas de control 
+óptimo con retardos y demuestran la existencia de técnicas numéricas eficientes 
+para resolver dichos problemas.
+
 In Section 2, we consider optimal control problems with multiple time delays in
 control and state variables The control process can be subject to mixed control-
 state constraints. We review the necessary optimality conditions that were derived
@@ -37,7 +67,10 @@ in [10] in the form of a Pontryagin type Minimum Principle. It is assumed that t
 so-called commensurability assumption holds which requires that the time delays
 and the terminal time are integer multiples of a joint stepsize. This assumption
 also underlies the discretization and nonlinear programming techniques that are
-briefly reviewed in Section 3. In Section 4, we study the delay differential model for
+briefly reviewed in Section 3. 
+
+
+In Section 4, we study the delay differential model for
 tumour-immune-response with chemo-immunotherapy in Rihan et al. [21]. Aside
 from the state delay in this model we introduce a time delay in the control variable
 representing the immune therapy. The delay accounts for the fact that the human
