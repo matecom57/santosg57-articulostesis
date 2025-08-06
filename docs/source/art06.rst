@@ -2,6 +2,7 @@ OPTIMAL CONTROL PROBLEMS WITH TIME DELAYS: TWO CASE STUDIES IN BIOMEDICINE . art
 =============================================================
 
 Abstract. 
+---------
 
 There exists an extensive literature on delay differential models
 in biology and biomedicine, but only a few papers study such models in the
@@ -121,6 +122,7 @@ control bang-bang sin retardo proporciona un mínimo fuerte estricto, mientras
 que los controles retardados son soluciones extremales que satisfacen las 
 condiciones necesarias con alta precisión.
 
+2222
 
 2. Optimal control problems with multiple time-delays in state and control variables.
 ------------------------------------------------------------------------------------
