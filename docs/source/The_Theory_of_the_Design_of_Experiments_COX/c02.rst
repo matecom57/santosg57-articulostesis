@@ -1,0 +1,1324 @@
+CHAPTER 2 Avoidance of bias
+============================
+
+2.1 General remarks
+------------------
+
+In Section 1.4 we stated a primary objective in the design of experiments to be the avoidance of bias, or systematic error. There are
+essentially two ways to reduce the possibility of bias. One is the use of randomization and the other the use in 
+analysis of retrospective adjustments for perceived sources of bias. In this chapter we
+discuss randomization and retrospective adjustment in detail, concentrating to begin with on a simple experiment to compare two
+treatments T and C. Although bias removal is a primary objective of randomization, we discuss also its important role in giving
+estimates of errors of estimation.
+
+2.2 Randomization
+-----------------
+
+2.2.1 Allocation of treatments
+
+Given n = 2r experimental units we have to determine which are
+to receive T and which C. In most contexts it will be reasonable to
+require that the same numbers of units receive each treatment, so
+that the issue is how to allocate r units to T . Initially we suppose
+that there is no further information available about the units. Empirical evidence suggests that methods of allocation that involve
+ill-specified personal choices by the investigator are often subject
+to bias. This and, in particular, the need to establish publically
+independence from such biases suggest that a wholly impersonal
+method of allocation is desirable. Randomization is a very important way to achieve this: we choose r units at random out of the
+2r. It is of the essence that randomization means the use of an objective physical device; it does not mean that allocation is vaguely
+haphazard or even that it is done in a way that looks effectively
+random to the investigator.
+
+Illustrations. One aspect of randomization is its use to conceal
+the treatment status of individuals. Thus in an examination of the
+reliability of laboratory measurements specimens could be sent for
+analysis of which some are from different individuals and others duplicate specimens from the same individual. Realistic assessment of
+precision would demand concealment of which were the duplicates
+and hidden randomization would achieve this.
+
+The terminology “double-blind” is often used in published accounts of clinical trials. This usually means that the treatment
+status of each patient is concealed both from the patient and from
+the treating physician. In a triple-blind trial it would be aimed to
+conceal the treatment status as well from the individual assessing
+the end-point response.
+
+There are a number of ways that randomization can be achieved
+in a simple experiment with just two treatments. Suppose initially that the units available are numbered U1,...,Un. Then all
+(2r)!/(r!r!) possible samples of size r may in principle be listed
+and one chosen to receive T , giving each such sample equal chance
+of selection. Another possibility is that one unit may be chosen at
+random out of U1,...,Un to receive T , then a second out of the
+remainder and so on until r have been chosen, the remainder receiving C. Finally, the units may be numbered 1,...,n, a random
+permutation applied, and the first r units allocated say to T .
+
+It is not hard to show that these three procedures are equivalent. Usually randomization is subject to certain balance constraints aimed for example to improve precision or interpretability,
+but the essential features are those illustrated here. This discussion
+assumes that the randomization is done in one step. If units are
+accrued into the experiment in sequence over time different procedures will be needed to achieve the same objective; see Section
+2.4.
+
+2.2.2 The assumption of unit-treatment additivity
+
+We base our initial discussion on the following assumption that can
+be regarded as underlying also many of the more complex designs
+and analyses developed later. We state the assumption for a general
+problem with v treatments, T1,...,Tv, using the simpler notation
+T,C for the special case v = 2.
+
+Assumption of unit-treatment additivity. There exist constants,
+ξs for s = 1,...,n, one for each unit, and constants τj , j = 1,...,v,
+one for each treatment, such that if Tj is allocated to Us the resulting response is
+
+ξs + τj , (2.1)
+
+regardless of the allocation of treatments to other units.
+
+The assumption is based on a full specification of responses corresponding to any possible treatment allocated to any unit, i.e.
+for each unit v possible responses are postulated. Now only one
+of these can be observed, namely that for the treatment actually
+implemented on that unit. The other v − 1 responses are counte factuals. Thus the assumption can be tested at 
+most indirectly by examining some of its observable consequences.
+
+An apparently serious limitation of the assumption is its deterministic character. That is, it asserts that the difference between
+the responses for any two treatments is exactly the same for all
+units. In fact all the consequences that we shall use follow from
+the more plausible extended version in which some variation in
+treatment effect is allowed.
+
+Extended assumption of unit-treatment additivity. With otherwise the same notation and assumptions as before, we assume that
+the response if Tj is applied to Us is
+
+ξs + τj + ηjs, (2.2)
+
+where the ηjs are independent and identically distributed random
+variables which may, without loss of generality, be taken to have
+zero mean.
+
+Thus the treatment difference between any two treatments on
+any particular unit s is modified by addition of a random term
+which is the difference of the two random terms in the original
+specification.
+
+The random terms ηjs represent two sources of variation. The
+first is technical error and represents an error of measurement or
+sampling. To this extent its variance can be estimated if independent duplicate measurements or samples are taken. The second is
+real variation in treatment effect from unit to unit, or what will
+later be called treatment by unit interaction, and this cannot be
+estimated separately from variation among the units, i.e. the variation of the ξs.
+
+For simplicity all the subsequent calculations using the assumption of unit-treatment additivity will be based on the simple ver-
+sion of the assumption, but it can be shown that the conclusions
+all hold under the extended form.
+
+The assumption of unit-treatment additivity is not directly testable, as only one outcome can be observed on each experimental
+unit. However, it can be indirectly tested by examining some of its
+consequences. For example, it may be possible to group units according to some property, using supplementary information about
+the units. Then if the treatment effect is estimated separately for
+different groups the results should differ only by random errors of
+estimation.
+The assumption of unit-treatment additivity depends on the particular form of response used, and is not invariant under nonlinear
+transformations of the response. For example the effect of treatments on a necessarily positive response might plausibly be multiplicative, suggesting, for some purposes, a log transformation.
+Unit-treatment additivity implies also that the variance of response
+is the same for all treatments, thus allowing some test of the assumption without further information about the units and, in some
+cases at least, allowing a suitable scale for response to be estimated
+from the data on the basis of achieving constant variance.
+
+Under the assumption of unit-treatment additivity it is sometimes reasonable to call the difference between τj1 and τj2 the
+causal effect of Tj1 compared with Tj2 . It measures the difference,
+under the general conditions of the experiment, between the response under Tj1 and the response that would have been obtained
+under Tj2 .
+
+In general, the formulation as ξs + τj is overparameterized and
+a constraint such as Στj = 0 can be imposed without loss of generality. For two treatments it is more symmetrical to write the
+responses under T and C as respectively
+
+ξs + δ, ξs − δ, (2.3)
+
+so that the treatment difference of interest is ∆ = 2δ.
+
+The assumption that the response on one unit is unaffected by
+which treatment is applied to another unit needs especial consideration when physically the same material is used as an experimental
+unit more than once. We return to further discussion of this point
+in Section 4.3.
+
+2.2.3 Equivalent linear model
+
+The simplest model for the comparison of two treatments, T and
+C, in which all variation other than the difference between treatments is regarded as totally random, is a linear model of the following form. Represent the observations on T and on C by random
+variables
+
+YT1,...,YT r; YC1,...,YCr (2.4)
+
+and suppose that
+
+E(YT j ) = μ + δ, E(YCj ) = μ − δ. (2.5)
+
+This is merely a convenient reparameterization of a model assigning
+the two groups arbitrary expected values. Equivalently we write
+
+YT j = μ + δ + T j , YCj = μ − δ + Cj, (2.6)
+
+where the random variables  have by definition zero expectation.
+
+To complete the specification more has to be set out about the
+distribution of the . We identify two possibilities.
+
+Second moment assumption. The j are mutually uncorrelated and
+all have the same variance, σ2.
+
+Normal theory assumption. The j are independently normally dis-
+tributed with constant variance.
+
+The least squares estimate of ∆, the difference of the two means,
+is
+
+∆ = ˆ Y ̄T. − Y ̄C., (2.7)
+
+where Y ̄T. is the mean response on the units receiving T , and Y ̄C. is
+the mean response on the units receiving C. Here and throughout
+we denote summation over a subscript by a full stop. The residual
+mean square is
+
+s2 = Σ{(YT j − Y ̄T.)
+
+2 + (YCj − Y ̄C.)
+
+2}/(2r − 2). (2.8)
+
+Defining the estimated variance of ∆ by ˆ
+
+evar(∆) = 2 ˆ s2/r, (2.9)
+
+we have under (2.6) and the second moment assumptions that
+
+E(∆) = ∆ ˆ , (2.10)
+E{evar(∆) ˆ } = var(∆) ˆ . (2.11)
+
+The optimality properties of the estimates of ∆ and var(∆) un- ˆ
+der both the second moment assumption and the normal theory
+assumption follow from the same results in the general linear model
+and are detailed in Appendix A. For example, under the second
+moment assumption ∆ is the minimum variance unbiased estimate ˆ
+that is linear in the observations, and under normality is the minimum variance estimate among all unbiased estimates. Of course,
+such optimality considerations, while reassuring, take no account
+of special concerns such as the presence of individual defective observations.
+
+2.2.4 Randomization-based analysis
+
+We now develop a conceptually different approach to the analysis
+assuming unit-treatment additivity and regarding probability as
+entering only via the randomization used in allocating treatments
+to the experimental units.
+
+We again write random variables representing the observations
+on T and C respectively
+
+YT1,...,YT r, (2.12)
+YC1,...,YCr, (2.13)
+
+where the order is that obtained by, say, the second scheme of ran-
+domization specified in Section 2.2.1. Thus YT1, for example, is
+
+equally likely to arise from any of the n = 2r experimental units.
+
+With PR denoting the probability measure induced over the exper-
+imental units by the randomization, we have that, for example,
+
+PR(YT j ∈ Us) = (2r)
+−1,
+
+PR(YT j ∈ Us, YCk ∈ Ut, s 6= t) = {2r(2r − 1)}−1, (2.14)
+where unit Us is the jth to receive T .
+Suppose now that we estimate both ∆ = 2δ and its standard
+
+error by the linear model formulae for the comparison of two inde-
+pendent samples, given in equations (2.7) and (2.9). The properties
+
+of these estimates under the probability distribution induced by the
+randomization can be obtained, and the central results are that in
+parallel to (2.10) and (2.11),
+
+ER(∆) = ∆ ˆ , (2.15)
+ER{evar(∆) ˆ } = varR(∆) ˆ , (2.16)
+where ER and varR denote expectation and variance calculated
+under the randomization distribution.
+
+© 2000 by Chapman & Hall/CRC
+
+We may call these second moment properties of the randomiza-
+tion distribution. They are best understood by examining a simple
+
+special case, for instance n = 2r = 4, when the 4! = 24 distinct per-
+mutations lead to six effectively different treatment arrangements.
+
+The simplest proof of (2.15) and (2.16) is obtained by introduc-
+ing indicator random variables with, for the sth unit, Is taking
+
+values 1 or 0 according as T or C is allocated to that unit.
+The contribution of the sth unit to the sample total for YT. is
+thus
+
+Is(ξs + δ), (2.17)
+
+whereas the contribution for C is
+
+(1 − Is)(ξs − δ). (2.18)
+
+Thus
+
+∆=Σ ˆ {Is(ξs + δ) − (1 − Is)(ξs − δ)}/r (2.19)
+
+and the probability properties follow from those of Is.
+A more elegant and general argument is in outline as follows:
+Y ̄T. − Y ̄C. =∆+ L(ξ), (2.20)
+where L(ξ) is a linear combination of the ξ’s depending on the
+particular allocation. Now ER(L) is a symmetric linear function,
+i.e. is invariant under permutation of the units. Therefore
+ER(L) = aΣξs, (2.21)
+say. But if ξs = ξ is constant for all s, then L = 0 which implies
+a = 0.
+Similarly both varR(∆) ˆ , ER{evar(∆) ˆ } do not depend on ∆ and
+are symmetric second degree functions of ξ1,...,ξ2r vanishing if
+all ξs are equal. Hence
+
+varR(∆) = ˆ b1Σ(ξs −  ̄ξ.)
+2,
+ER{evar(∆) ˆ } = b2Σ(ξs −  ̄ξ.)
+2,
+
+where b1, b2 are constants depending only on n. To find the b’s
+we may choose any special ξ’s, such as ξ1 = 1, ξs = 0,(s 6= 1) or
+suppose that ξ1,...,ξn are independent and identically distributed
+
+random variables with mean zero and variance ψ2. This is a techni-
+cal mathematical trick, not a physical assumption about the vari-
+ability.
+
+Let E denote expectation with respect to that distribution and
+apply E to both sides of last two equations. The expectations on
+
+© 2000 by Chapman & Hall/CRC
+
+the left are known and
+EΣ(ξs −  ̄ξ.)
+2 = (2r − 1)ψ2; (2.22)
+
+it follows that
+
+b1 = b2 = 2/{r(2r − 1)}. (2.23)
+Thus standard two-sample analysis based on an assumption of
+
+independent and identically distributed errors has a second mo-
+ment justification under randomization theory via unit-treatment
+
+additivity. The same holds very generally for designs considered in
+later chapters.
+
+The second moment optimality of these procedures follows un-
+der randomization theory in essentially the same way as under a
+
+physical model. There is no obvious stronger optimality property
+solely in a randomization-based framework.
+2.2.5 Randomization test and confidence limits
+Of more direct interest than ∆ and evar( ˆ ∆) is the pivotal statistic ˆ
+
+(∆ˆ − ∆)/
+√evar(∆) (2.24) ˆ
+that would generate confidence limits for ∆ but more complicated
+
+arguments are needed for direct analytical examination of its ran-
+domization distribution.
+
+Although we do not in this book put much emphasis on tests
+
+of significance we note briefly that randomization generates a for-
+mally exact test of significance and confidence limits for ∆. To see
+
+whether ∆0 is in the confidence region at a given level we subtract
+∆0 from all values in T and test ∆ = 0.
+This null hypothesis asserts that the observations are totally
+unaffected by treatment allocation. We may thus write down the
+
+observations that would have been obtained under all possible al-
+locations of treatments to units. Each such arrangement has equal
+
+probability under the null hypothesis. The distribution of any test
+statistic then follows. Using the constraints of the randomization
+formulation, simplification of the test statistic is often possible.
+
+We illustrate these points briefly on the comparison of two treat-
+ments T and C, with equal numbers of units for each treatment
+
+and randomization by one of the methods of Section 2.2.2. Suppose
+that the observations are
+
+P = {yT1,...,yT r; yC1,...,yCr}, (2.25)
+
+© 2000 by Chapman & Hall/CRC
+
+which can be regarded as forming a finite population P. Write
+mP , wP for the mean and effective variance of this finite population
+defined as
+
+mP = Σyu/(2r), (2.26)
+wP = Σ(yu − mP )
+
+2/(2r − 1), (2.27)
+where the sum is over all members of the finite population. To
+test the null hypothesis a test statistic has to be chosen that is
+defined for every possible treatment allocation. One natural choice
+is the two-sample Student t statistic. It is easily shown that this is
+a function of the constants mP , wP and of Y ̄T., the mean response
+of the units receiving T . Only Y ̄T. is a random variable over the
+various treatment allocations and therefore we can treat it as the
+test statistic.
+It is possible to find the exact distribution of Y ̄T. under the
+null hypothesis by enumerating all distinct samples of size r from
+P under sampling without replacement. Then the probability of
+a value as or more extreme than the observed value  ̄yT. can be
+found. Alternatively we may use the theory of sampling without
+replacement from a finite population to show that
+
+ER(Y ̄T.) = mP , (2.28)
+varR(Y ̄T.) = wP /(2r). (2.29)
+Higher moments are available but in many contexts a strong
+
+central limit effect operates and a test based on a normal approx-
+imation for the null distribution of Y ̄T. will be adequate.
+
+A totally artificial illustration of these formulae is as follows.
+Suppose that r = 2 and that the observations on T and C are
+respectively 3, 1 and −1, −3. Under the null hypothesis the possible
+values of observations on T corresponding to the six choices of units
+to be allocated to T are
+(−1, −3); (−1, 1); (−1, 3); (−3, 1); (−3, 3); (1, 3) (2.30)
+so that the induced randomization distribution of Y ̄T. has mass 1/6
+at −2, −1, 1, 2 and mass 1/3 at 0. The one-sided level of significance
+of the data is 1/6. The mean and variance of the distribution are
+respectively 0 and 5/3; note that the normal approximation to the
+significance level is Φ(−2
+√3/
+√5) ' 0.06, which, considering the
+extreme discreteness of the permutation distribution, is not too
+far from the exact value.
+
+© 2000 by Chapman & Hall/CRC
+
+2.2.6 More than two treatments
+
+The previous discussion has concentrated for simplicity on the com-
+parison of two treatments T and C. Suppose now that there are v
+
+treatments T1,...,Tv. In many ways the previous discussion carries
+through with little change.
+
+The first new point of design concerns whether the same num-
+ber of units should be assigned to each treatment. If there is no
+
+obvious structure to the treatments, so that for instance all com-
+parisons of pairs of treatments are of equal interest, then equal
+
+replication will be natural and optimal, for example in the sense
+of minimizing the average variance over all comparisons of pairs of
+treatments. Unequal interest in different comparisons may suggest
+unequal replication.
+
+For example, suppose that there is a special treatment T0, pos-
+sibly a control, and v ordinary treatments and that particular in-
+terest focuses on the comparisons of the ordinary treatments with
+
+T0. Suppose that each ordinary treatment is replicated r times and
+that T0 occurs cr times. Then the variance of a difference of interest
+is proportional to
+
+1/r + 1/(cr) (2.31)
+and we aim to minimize this subject to a given total number of
+
+observations n = r(v + c). We eliminate r and obtain a simple ap-
+proximation by regarding c as a continuous variable; the minimum
+
+is at c = √v. With three or four ordinary treatments there is an
+appreciable gain in efficiency, by this criterion, by replicating T0
+up to twice as often as the other treatments.
+The assumption of unit-treatment additivity is as given at (2.1).
+The equivalent linear model is
+
+Yjs = μ + τj + js (2.32)
+
+with j = 1,...,v and s = 1,...,r. An important aspect of hav-
+ing more than two treatments is that we may be interested in
+
+more complicated comparisons than simple differences. We shall
+call Σlj τj , where Σlj = 0, a treatment contrast. The special case
+of a difference τj1 − τj2 is called a simple contrast and examples of
+more general contrasts are
+(τ1 + τ2 + τ3)/3 − τ5, (τ1 + τ2 + τ3)/3 − (τ4 + τ6)/2. (2.33)
+We defer more detailed discussion of contrasts to Section 3.5.2
+but in the meantime note that the general contrast Σljτj is es-
+
+© 2000 by Chapman & Hall/CRC
+
+timated by ΣljY ̄j. with, in the simple case of equal replication,
+variance
+
+Σl
+2
+jσ2/r, (2.34)
+estimated by replacing σ2 by the mean square within treatment
+
+groups. Under complete randomization and the assumption of unit-
+treatment additivity the correspondence between the properties
+
+found under the physical model and under randomization theory
+discussed in Section 2.2.4 carries through.
+2.3 Retrospective adjustment for bias
+Even with carefully designed experiments there may be a need in
+the analysis to make some adjustment for bias. In some situations
+where randomization has been used, there may be some suggestion
+from the data that either by accident effective balance of important
+features has not been achieved or that possibly the implementation
+of the randomization has been ineffective. Alternatively it may not
+be practicable to use randomization to eliminate systematic error.
+
+Sometimes, especially with well-standardized physical measure-
+ments, such corrections are done on an a priori basis.
+
+Illustration. It may not be feasible precisely to control the tem-
+perature at which the measurement on each unit is made but the
+
+temperature dependence of the property in question, for example
+electrical resistance, may be known with sufficient precision for an
+a priori correction to be made.
+For the remainder of the discussion, we assume that any bias
+correction has to be estimated internally from the data.
+In general we suppose that on the sth experimental unit there is
+
+available a q × 1 vector zs of baseline explanatory variables, mea-
+sured in principle before randomization. For simplicity we discuss
+
+mostly q = 1 and two treatment groups.
+If the relevance of z is recognized at the design stage then the
+completely random assignment of treatments to units discussed in
+this chapter is inappropriate unless there are practical constraints
+
+that prevent the randomization scheme being modified to take ac-
+count of z. We discuss such randomization schemes in Chapters
+
+3 and 4. If, however, the relevance of z is only recognized retro-
+spectively, it will be important to check that it is indeed properly
+
+regarded as a baseline variable and, if there is a serious lack of bal-
+ance between the treatment groups with respect to z, to consider
+
+© 2000 by Chapman & Hall/CRC
+
+whether there is a reasonable explanation as to why this differ-
+ence occurred in a context where randomization should, with high
+
+probability, have removed any substantial bias.
+Suppose, however, that an apparent bias does exist. Figure 2.1
+shows three of the various possibilities that can arise. In Fig. 2.1a
+
+the clear lack of parallelism means that a single estimate of treat-
+ment difference is at best incomplete and will depend on the par-
+ticular value of z used for comparison. Alternatively a transforma-
+tion of the response scale inducing parallelism may be found. In
+
+Fig. 2.1b the crossing over in the range of the data accentuates the
+dangers of a single comparison; the qualitative consequences may
+well be stronger than those in the situation of Fig. 2.1a. Finally
+in Fig. 2.1c the effective parallelism of the two relations suggests
+
+a correction for bias equivalent to using the vertical difference be-
+tween the two lines as an estimated treatment difference preferable
+
+to a direct comparison of unadjusted means which in the particular
+instance shown underestimates the difference between T and C.
+A formulation based on a linear model is to write
+
+E(YT j ) = μ + δ + β(zT j − z ̄..), (2.35)
+E(YCj ) = μ − δ + β(zCj − z ̄..), (2.36)
+where zT j and zCj are the values of z on the jth units to receive
+T and C, respectively, and  ̄z.. the overall average z. The inclusion
+of  ̄z.. is not essential but preserves an interpretation for μ as the
+expected value of Y ̄...
+We make the normal theory or second moment assumptions
+
+about the error terms as in Section 2.2.3. Note that ∆ = 2δ mea-
+sures the difference between T and C in the expected response at
+
+any fixed value of z. Provided that z is a genuine baseline variable,
+and the assumption of parallelism is satisfied, ∆ remains a measure
+of the effect of changing the treatment from C to T .
+If z is a q × 1 vector the only change is to replace βz by βT z, β
+becoming a q × 1 vector of parameters; see also Section 3.6.
+A least squares analysis of the model gives for scalar z, 
+
+2r 0 0
+0 2r r( ̄zT. − z ̄C.)
+0 r( ̄zT. − z ̄C.) Szz
+
+
+
+
+μˆ
+ˆδ
+βˆ
+
+
+
+=
+
+
+
+r(Y ̄T. + Y ̄C.)
+r(Y ̄T. − Y ̄C.)
+Σ{YT j (zT j − z..) + YCj (zCj − z..)}
+
+ , (2.37)
+
+© 2000 by Chapman & Hall/CRC
+
+(a)
+Z
+
+(b)
+Z
+
+Response Response
+
+(c)
+Z
+
+Response
+
+Figure 2.1 Two treatments: ×, T and ◦, C. Response variable, Y ; Base-
+line variable, z measured before randomization and therefore unaffected
+
+by treatments. In (a) nonparallelism means that unadjusted estimate of
+treatment effect is biased, and adjustment depends on particular values
+
+of z. In (b) crossing over of relations means that even qualitative inter-
+pretation of treatment effect is different at different values of z. In (c)
+
+essential parallelism means that treatment effect can be estimated from
+vertical displacement of lines.
+where
+
+Szz = Σ{(zT j − z ̄..)
+
+2 + (zCj − z ̄2
+
+..)}. (2.38)
+
+The least squares equations yield in particular
+
+∆=2 ˆ ˆδ = Y ̄T. − Y ̄C. − βˆ( ̄zT. − z ̄C.), (2.39)
+where βˆ is the least squares estimated slope, agreeing precisely
+with the informal geometric argument given above. It follows also
+either by a direct calculation or by inverting the matrix of the least
+squares equations that
+
+var(∆) = ˆ σ2{2/r + ( ̄zT. − z ̄C.)
+
+2/Rzz}, (2.40)
+
+where
+
+Rzz = Σ{(zT j − z ̄T.)
+
+2 + (zCj − z ̄C.)
+
+2}. (2.41)
+
+© 2000 by Chapman & Hall/CRC
+
+For a given value of σ2 the variance is inflated as compared with
+that for the difference between two means because of sampling
+error in βˆ.
+
+This procedure is known in the older literature as analysis of co-
+variance. If a standard least squares regression package is used to
+
+do the calculations it may be simpler to use more direct parameter-
+izations than that used here although the advantages of choosing
+
+parameters which have a direct interpretation should not be over-
+looked. In extreme cases the subtraction of a suitable constant, not
+
+necessarily the overall mean, from z, and possibly rescaling by a
+power of 10, may be needed to avoid numerical instability and also
+to aid interpretability.
+We have presented the bias correction via an assumed linear
+model. The relation with randomization theory does, however, need
+discussion: have we totally abandoned a randomization viewpoint?
+
+First, as we have stressed, if the relevance of the bias inducing vari-
+able z had been clear from the start then normally this bias would
+
+have been avoided by using a different form of randomization, for
+example a randomized block design; see Chapter 3. When complete
+
+randomization has, however, been used and the role of z is consid-
+ered retrospectively then the quantity  ̄zT. −z ̄C., which is a random
+
+variable under randomization, becomes an ancillary statistic. That
+is, to be relevant to the inference under discussion the ensemble of
+hypothetical repetitions should hold  ̄zT. − z ̄C. fixed, either exactly
+or approximately. It is possible to hold this ancillary exactly fixed
+only in special cases, notably when z corresponds to qualitative
+
+groupings of the units. Otherwise it can be shown that an appro-
+priate notion of approximate conditioning induces the appropriate
+
+randomization properties for the analysis of covariance estimate
+of ∆, and in that sense there is no conflict between randomization
+theory and that based on an assumed linear model. Put differently,
+randomization approximately justifies the assumed linear model.
+2.4 Some more on randomization
+In theory randomization is a powerful notion with a number of
+important features.
+First it removes bias.
+Secondly it allows what can fairly reasonably be called causal
+inference in that if a clear difference between two treatment groups
+
+© 2000 by Chapman & Hall/CRC
+
+arises it can only be either an accident of the randomization or a
+consequence of the treatment.
+Thirdly it allows the calculation of an estimated variance for a
+treatment contrast in the above and many other situations based
+
+only on a single assumption of unit-treatment additivity and with-
+out the need to supply an ad hoc model for each new design.
+
+Finally it allows the calculation of confidence limits for treatment
+differences, in principle based on unit-treatment additivity alone.
+In practice the role of randomization ranges from being crucial in
+some contexts to being of relatively minor importance in others; we
+do stress, however, the general desirability of impersonal allocation
+schemes.
+
+There are, moreover, some conceptual difficulties when we con-
+sider more realistic situations. The discussion so far, except for Sec-
+tion 2.3, has supposed both that there is no baseline information
+
+available on the experimental units and that the randomization is
+in effect done in one operation rather than sequentially in time.
+
+The absence of baseline information means that all arrange-
+ments of treatments can be regarded on an equal footing in the
+
+randomization-induced probability calculations. In practice poten-
+tially relevant information on the units is nearly always available.
+
+The broad strategy of the subsequent chapters is that such infor-
+mation, when judged important, is taken account of in the design,
+
+in particular to improve precision, and randomization used to safe-
+guard against other sources of variation. In the last analysis some
+
+set of designs is regarded as on an equal footing to provide a rele-
+vant reference set for inference. Additional features can in principle
+
+be covered by the adjustments of the type discussed in Section 2.3,
+but some frugality in the use of this idea is needed, especially where
+there are many baseline variables.
+A need to perform the randomization one unit at a time, such
+as in clinical trials in which patients are accrued in sequence over
+an appreciable time, raises different issues unless decisions about
+
+different patients are quite separate, for example by virtually al-
+ways being in different centres. For example, if a single group of
+
+2r patients is to be allocated equally to two treatments and this
+is done sequentially, a point will almost always be reached where
+all individuals must be allocated to a particular treatment in order
+to force the necessary balance and the advantages of concealment
+associated with the randomization are lost. On the other hand if
+all patients were independently randomized, there would be some
+
+© 2000 by Chapman & Hall/CRC
+
+chance, even if only a fairly small one, of extreme imbalance in
+
+numbers. The most reasonable compromise is to group the pa-
+tients into successive blocks and to randomize ensuring balance
+
+of numbers within each block. A suitable number of patients per
+block is often between 6 and 12 thus in the first case ensuring that
+each block has three occurrences of each of two treatments. In
+
+line with the discussion in the next chapter it would often be rea-
+sonable to stratify by one or two important features; for example
+
+there might be separate blocks of men and women. Randomization
+schemes that adapt to the information available in earlier stages of
+the experiment are discussed in Section 8.2.
+2.5 More on causality
+We return to the issue of causality introduced in Section 1.8. For
+ease of exposition we again suppose there to be just two treatments,
+
+T and C, possibly a new treatment and a control. The counterfac-
+tual definition of causality introduced in Section 1.8, the notion
+
+that an individual receiving, say, T gives a response systematically
+
+different from the response that would have resulted had the indi-
+vidual received C, other things being equal, is encapsulated in the
+
+assumption of unit-treatment additivity in either its simple or in
+its extended form. Indeed the general notion may be regarded as
+an extension of unit-treatment additivity to possibly observational
+contexts.
+In the above sense, causality can be inferred from a randomized
+experiment with uncertainty expressed via a significance test, for
+
+example via the randomization-based test of Section 2.2.5. The ar-
+gument is direct. Suppose a set of experimental units is randomized
+
+between T and C, a response is observed, and a significance test
+
+shows very strong evidence against the null hypothesis of treat-
+ment identity and evidence, say, that the parameter ∆ is positive.
+
+Then either an extreme chance fluctuation has occurred, to which
+the significance level of the test refers, or units receiving T have a
+higher response than they would have yielded had they received C
+and this is precisely the definition of causality under discussion.
+
+The situation is represented graphically in Fig. 2.2. Randomiza-
+tion breaks the possible edge between the unobserved confounder
+
+U and treatment.
+
+In a comparable observational study the possibility of an un-
+observed confounder affecting both treatment and response in a
+
+© 2000 by Chapman & Hall/CRC
+
+Y T,C
+
+(a)
+
+(b)
+
+U
+
+Y T,C
+(rand)
+
+U
+
+Figure 2.2 Unobserved confounder, U; treatment, T,C; response, Y . No
+treatment difference, no edge between T,C and Y . In an observational
+study, (a), there are edges between U and other nodes. Marginalization
+over U can be shown to induce dependency between T,C and Y . In
+a randomized experiment, (b), randomization of T,C ensures there is
+no edge to it from U. Marginalization over U does not induce an edge
+between T,C and Y .
+
+systematic way would be an additional source of uncertainty, some-
+times a very serious one, that would make any causal interpretation
+
+much more tentative.
+
+This conclusion highlighting the advantage of randomized exper-
+iments over observational studies is very important. Nevertheless
+
+there are some qualifications to it.
+First we have assumed the issues of noncompliance discussed in
+Section 1.8 are unimportant: the treatments as implemented are
+assumed to be genuinely those that it is required to study. An
+implication for design concerns the importance of measuring any
+features arising throughout the implementation of the experiment
+that might have an unanticipated distortion of the treatments from
+those that were originally specified.
+Next it is assumed that randomization has addressed all sources
+
+© 2000 by Chapman & Hall/CRC
+
+of potential systematic error including any associated directly with
+the measurement of response.
+The most important assumption, however, is that the treatment
+effect, ∆, is essentially constant and in particular does not have
+systematic sign reversals between different units. That is, in the
+terminology to be introduced later there is no major interaction
+
+between the treatment effect and intrinsic features of the experi-
+mental units.
+
+In an extension of model (2.3) in which each experimental unit
+
+has its own treatment parameter, the difference estimated in a ran-
+domized experiment is the average treatment effect over the full set
+
+of units used in the experiment. If, moreover, these were a random
+sample from a population of units then the average treatment effect
+over that population is estimated. Such conclusions have much less
+
+force whenever the units used in the experiment are unrepresenta-
+tive of some target population or if substantial and interpretable
+
+interactions occur with features of the experimental units.
+
+There is a connection of these matters with the apparently an-
+tithetical notions of generalizability and specificity. Suppose for
+
+example that a randomized experiment shows a clear superiority
+
+in some sense of T over C. Under what circumstances may we rea-
+sonably expect the superiority to be reproduced over a new some-
+what different set of units perhaps in different external conditions?
+
+This a matter of generalizability. On the other hand the question
+of whether T will give an improved response for a particular new
+experimental unit is one of specificity. Key aids in both aspects are
+
+understanding of underlying process and of the nature of any in-
+teractions of the treatment effect with features of the experimental
+
+units. Both these, and especially the latter, may help clarify the
+conditions under which the superiority of T may not be achieved.
+The main implication in the context of the present book concerns
+
+the importance of factorial experiments, to be discussed in Chap-
+ters 5 and 6, and in particular factorial experiments in which one
+
+or more of the factors correspond to properties of the experimental
+units.
+2.6 Bibliographic notes
+
+Formal randomization was introduced into the design of experi-
+ments by R. A. Fisher. The developments for agricultural experi-
+ments especially by Yates, as for example in Yates (1937), put cen-
+
+© 2000 by Chapman & Hall/CRC
+
+tral importance on achieving meaningful estimates of error via the
+
+randomization rather than via physical assumptions about the er-
+ror structure. In some countries, however, this view has not gained
+
+wide acceptance. Yates (1951a,b) discussed randomization more
+
+systematically. For a general mathematical discussion of the ba-
+sis of randomization theory, see Bailey and Rowley (1987). For a
+
+combinatorial nonprobabilistic formulation of the notion of ran-
+domization, see Singer and Pincus (1998).
+
+Models based on unit-treatment additivity stem from Neyman
+(1923).
+The relation between tests based on randomization and those
+stemming from normal theory assumptions was discussed in detail
+in early work by Welch (1937) and Pitman (1937). See Hinkelman
+
+and Kempthorne (1994) and Kempthorne (1952) for an account re-
+garding the randomization analysis as primary. Manly (1997) em-
+phasizes the direct role of randomization analyses in applications.
+
+For a discussion of the Central Limit Theorem, and Edgeworth and
+
+saddle-point expansions connected with sampling without replace-
+ment from a finite population, see Thompson (1997).
+
+A priori corrections for bias are widely used, for example in the
+physical sciences for adjustments to standard temperature, etc.
+
+Corrections based explicitly on least squares analysis were the mo-
+tivation for the development of analysis of covariance. For a review
+
+of analysis of covariance, see Cox and McCullagh (1982). Similar
+adjustments are central to the careful analysis of observational data
+to attempt to adjust for unwanted lack of comparability of groups.
+See, for example, Rosenbaum (1999) and references therein.
+
+For references on causality, see the Bibliographic notes to Chap-
+ter 1.
+
+2.7 Further results and exercises
+1. Suppose that in the comparison of two treatments with r units
+for each treatment the observations are completely separated,
+for example that all the observations on T exceed all those on
+
+C. Show that the one-sided significance level under the random-
+ization distribution is (r!)2/(2r)!. Comment on the reasonable-
+ness or otherwise of the property that it does not depend on the
+
+numerical values and in particular on the distance apart of the
+two sets of observations.
+
+© 2000 by Chapman & Hall/CRC
+
+2. In the comparison of v equally replicated treatments in a com-
+pletely randomized design show that under a null hypothesis of
+
+no treatment effects the randomization expectation of the mean
+squares between and within treatments, defined in the standard
+
+way, are the same. What further calculations would be desir-
+able to examine the distribution under randomization of the
+
+standard F statistic?
+
+3. Suppose that on each unit a property, for example blood pres-
+sure, is measured before randomization and then the same prop-
+erty measured as a response after treatment. Discuss the relative
+
+merits of taking as response on each individual the difference be-
+tween the values after and before randomization versus taking
+
+as response the measure after randomization and adjusting for
+regression on the value before. See Cox (1957, 1958, Chapter 4)
+and Cox and Snell (1981, Example D).
+4. Develop the analysis first for two treatments and then for v
+treatments for testing the parallelism of the regression lines
+
+involved in a regression adjustment. Sketch some possible ap-
+proaches to interpretation if nonparallelism is found.
+
+5. Show that in the randomization analysis of the comparison of
+two treatments with a binary response, the randomization test
+
+of a null hypothesis of no effect is the exact most powerful condi-
+tional test of the equality of binomial parameters, usually called
+
+Fisher’s exact test (Pearson, 1947; Cox and Hinkley, 1974, Chap-
+ter 5). If the responses are individually binomial, corresponding
+
+to the numbers of successes in, say, t trials show that a ran-
+domization test is essentially the standard Mantel-Haenszel test
+
+with a sandwich estimate of variance (McCullagh and Nelder,
+1989, Chapter 14).
+6. Discuss a randomization formulation of the situation of Exercise
+5 in the nonnull case. See Copas (1973).
+7. Suppose that in an experiment to compare two treatments, T
+and C, the response Y of interest is very expensive to measure.
+
+It is, however, relatively inexpensive to measure a surrogate re-
+sponse variable, X, thought to be quite highly correlated with
+
+Y . It is therefore proposed to measure X on all units and both
+X and Y on a subsample. Discuss some of the issues of design
+and analysis that this raises.
+
+© 2000 by Chapman & Hall/CRC
+
+8. Individual potential experimental units are grouped into clus-
+ters each of k individuals. A number of treatments are then
+
+randomized to clusters, i.e. all individuals in the same cluster
+
+receive the same treatment. What would be the likely conse-
+quences of analysing such an experiment as if the treatments
+
+had been randomized to individuals? Cornfield (1978) in the
+context of clinical trials called such an analysis “an exercise in
+self-deception”. Was he justified?
+9. Show that in a large completely randomized experiment under
+the model of unit-treatment additivity the sample cumulative
+distribution functions of response to the different treatments
+differ only by translations. How could such a hypothesis be
+tested nonparametrically? Discuss why in practice examination
+of homogeneity of variance would often be preferable. First for
+two treatments and then for more than two treatments suggest
+parametric and nonparametric methods for finding a monotone
+transformation inducing translation structure and for testing
+whether such a transformation exists. Nonparametric analysis
+
+of completely randomized and randomized block designs is dis-
+cussed in Lehmann (1975).
+
+10. Studies in various medical fields, for example psychiatry (John-
+son, 1998), have shown that where the same treatment contrasts
+
+have been estimated both via randomized clinical trials and via
+
+observational studies, the former tend to show smaller advan-
+tages of new procedures than the latter. Why might this be?
+
+11. When the sequential blocked randomization scheme of Section
+2.4 is used in clinical trials it is relatively common to disregard
+
+the blocking in the statistical analysis. How might some justifi-
+cation be given of the disregard of the principle that constraints
+
+used in design should be reflected in the statistical model?
+
+© 2000 by Chapman & Hall/CRC
+
+CHAPTER 3
+
+Control of haphazard variation
+
+3.1 General remarks
+
+In the previous chapter the primary emphasis was on the elimina-
+tion of systematic error. We now turn to the control of haphazard
+
+error, which may enter at any of the phases of an investigation.
+
+Sources of haphazard error include intrinsic variation in the exper-
+imental units, variation introduced in the intermediate phases of
+
+an investigation and measurement or sampling error in recording
+response.
+
+It is important that measures to control the effect of such vari-
+ation cover all the main sources of variation and some knowledge,
+
+even if rather qualitative, of the relative importance of the different
+sources is needed.
+The ways in which the effect of haphazard variability can be
+reduced include the following approaches.
+
+1. It may be possible to use more uniform material, improved mea-
+suring techniques and more internal replication, i.e. repeat ob-
+servations on each unit.
+
+2. It may be possible to use more experimental units.
+3. The technique of blocking, discussed in detail below, is a widely
+applicable technique for improving precision.
+
+4. Adjustment for baseline features by the techniques for bias re-
+moval discussed in Section 2.3 can be used.
+
+5. Special models of error structure may be constructed, for exam-
+ple based on a time series or spatial model.
+
+On the first two points we make here only incidental comments.
+
+There will usually be limits to the increase in precision achiev-
+able by use of more uniform material and in technological experi-
+ments the wide applicability of the conclusions may be prejudiced
+
+if artificial uniformity is forced.
+
+© 2000 by Chapman & Hall/CRC
+
+Illustration. In some contexts it may be possible to use pairs
+of homozygotic twins as experimental units in the way set out in
+detail in Section 3.3. There may, however, be some doubt as to
+whether conclusions apply to a wider population of individuals.
+More broadly, in a study to elucidate some new phenomenon or
+
+suspected effect it will usually be best to begin with the circum-
+stances under which that effect occurs in its most clear-cut form.
+
+In a study in which practical application is of fairly direct concern
+the representativeness of the experimental conditions merits more
+emphasis, especially if it is suspected that the treatment effects
+have different signs in different individuals.
+In principle precision can always be improved by increasing the
+number of experimental units. The standard error of treatment
+comparisons is inversely proportional to the square root of the
+number of units, provided the residual standard deviation remains
+constant. In practice the investigator’s control may be weaker in
+large investigations than in small so that the theoretical increase
+in the number of units needed to shorten the resulting confidence
+limits for treatment effects is often an underestimate.
+3.2 Precision improvement by blocking
+The central idea behind blocking is an entirely commonsense one of
+aiming to compare like with like. Using whatever prior knowledge
+is available about which baseline features of the units and other
+aspects of the experimental set-up are strongly associated with
+potential response, we group the units into blocks such that all
+the units in any one block are likely to give similar responses in
+the absence of treatment differences. Then, in the simplest case,
+by allocating one unit in each block to each treatment, treatments
+are compared on units within the same block.
+The formation of blocks is usually, however, quite constrained
+in addition by the way in which the experiment is conducted. For
+example, in a laboratory experiment a block might correspond to
+the work that can be done in a day. In our initial discussion we
+regard the different blocks as merely convenient groupings without
+individual interpretation. Thus it makes no sense to try to interpret
+
+differences between blocks, except possibly as a guide for future ex-
+perimentation to see whether the blocking has been effective in er-
+ror control. Sometimes, however, some aspects of blocking do have
+
+a clear interpretation, and then the issues of Chapter 5 concerned
+
+© 2000 by Chapman & Hall/CRC
+
+with factorial experiments apply. In such cases it is preferable to
+use the term stratification rather than blocking.
+
+Illustrations. Typical ways of forming blocks are to group to-
+gether neighbouring plots of ground, responses from one subject
+
+in one session of a psychological experiment under different con-
+ditions, batches of material produced on one machine, where sev-
+eral similar machines are producing nominally the same product,
+
+groups of genetically similar animals of the same gender and initial
+body weight, pairs of homozygotic twins, the two eyes of the same
+
+subject in an opthalmological experiment, and so on. Note, how-
+ever, that if gender were a defining variable for blocks, i.e. strata,
+
+we would likely want not only to compare treatments but also to
+examine whether treatment differences are the same for males and
+females and this brings in aspects that we ignore in the present
+chapter.
+3.3 Matched pairs
+3.3.1 Model and analysis
+Suppose that we have just two treatments, T and C, for comparison
+and that we can group the experimental units into pairs, so that
+in the absence of treatment differences similar responses are to be
+expected in the two units within the same pair or block.
+
+It is now reasonable from many viewpoints to assign one mem-
+ber of the pair to T and one to C and, moreover, in the absence
+
+of additional structure, to randomize the allocation within each
+pair independently from pair to pair. This yields what we call the
+matched pair design.
+Thus if we label the units
+
+U11, U21; U12, U22; ... ; U1r, U2r (3.1)
+
+a possible design would be
+
+T,C; C, T ; ... ; T, C. (3.2)
+As in Chapter 2, a linear model that directly corresponds with
+randomization theory can be constructed. The broad principle in
+
+setting up such a physical linear model is that randomization con-
+straints forced by the design are represented by parameters in the
+
+linear model. Writing YT s, YCs for the observations on treatment
+
+© 2000 by Chapman & Hall/CRC
+
+and control for the sth pair, we have the model
+YT s = μ + βs + δ + T s, YCs = μ + βs − δ + Cs, (3.3)
+where the  are random variables of mean zero. As in Section 2.2,
+either the normal theory or the second moment assumption about
+the errors may be made; the normal theory assumption leads to
+distributional results and strong optimality properties.
+Model (3.3) is overparameterized, but this is often convenient
+to achieve a symmetrical formulation. The redundancy could be
+avoided here by, for example, setting μ to any arbitrary known
+value, such as zero.
+A least squares analysis of this model can be done in several
+ways. The simplest, for this very special case, is to transform the
+
+YT s, YCs to sums, Bs and differences, Ds. Because this is propor-
+tional to an orthogonal transformation, the transformed observa-
+tions are also uncorrelated and have constant variance. Further in
+
+the linear model for the new variables we have
+
+E(Bs) = 2(μ + βs), E(Ds)=2δ = ∆. (3.4)
+
+It follows that, so long as the βs are regarded as unknown parame-
+ters unconnected with ∆, the least squares estimate of ∆ depends
+
+only on the differences Ds and is in fact the mean of the differences,
+∆ = ˆ D ̄. = Y ̄T. − Y ̄C., (3.5)
+
+with
+
+var(∆) = var( ˆ Ds)/r = 2σ2/r, (3.6)
+where σ2 is the variance of . Finally σ2 is estimated as
+
+s2 = Σ(Ds − D ̄.)
+
+2/{2(r − 1)}, (3.7)
+
+so that
+
+evar(∆) = 2 ˆ s2/r. (3.8)
+In line with the discussion in Section 2.2.4 we now show that the
+properties just established under the linear model and the second
+moment assumption also follow from the randomization used in
+allocating treatments to units, under the unit-treatment additivity
+assumption. This assumption specifies the response on the sth pair
+to be (ξ1s + δ, ξ2s − δ) if the first unit in that pair is randomized to
+treatment and (ξ1s − δ, ξ2s + δ) if it is randomized to control. We
+
+© 2000 by Chapman & Hall/CRC
+
+then have
+
+ER(∆) = ∆ ˆ , ER{evar(∆) ˆ } = varR(∆) ˆ . (3.9)
+
+To prove the second result we note that both sides of the equa-
+tion do not depend on ∆ and are quadratic functions of the ξjs.
+
+They are invariant under permutations of the numbering of the
+pairs 1,...,r, and under permutations of the two units in any pair.
+Both sides are zero if ξ1s = ξ2s, s = 1,...,r. It follows that both
+sides of the equation are constant multiples of
+Σ(ξ1s − ξ2s)
+
+2 (3.10)
+and consistency with the least squares analysis requires that the
+constants of proportionality are equal. In fact, for example,
+
+ER(s2) = Σ(ξ1s − ξ2s)
+
+2/(2r). (3.11)
+Although not necessary for the discussion of the matched pair
+design, it is helpful for later discussion to set out the relation with
+
+analysis of variance. In terms of the original responses Y the es-
+timation of μ, βs is orthogonal to the estimation of ∆ and the
+
+analysis of variance arises from the following decompositions.
+
+First there is a representation of the originating random obser-
+vations in the form
+
+YT s = Y ̄.. + (Y ̄T. − Y ̄..)+(Y ̄.s − Y ̄..)
+
++(Y ̄T s − Y ̄T. − Y ̄.s + Y ̄..), (3.12)
+
+YCs = Y ̄.. + (Y ̄C. − Y ̄..)+(Y ̄.s − Y ̄..)
+
++(Y ̄Cs − Y ̄C. − Y ̄.s + Y ̄..). (3.13)
+Regarded as a decomposition of the full vector of observations, this
+has orthogonal components.
+Secondly because of that orthogonality the squared norms of the
+components add to give
+ΣY 2
+js = ΣY ̄ 2
+.. +Σ(Y ̄j.−Y ̄..)
+
+2+Σ(Y ̄.s−Y ̄..)
+
+2+Σ(Yjs−Y ̄j.−Y ̄.s+Y ̄..)
+2 :
+(3.14)
+note that Σ represents a sum over all observations so that, for
+example, ΣY ̄ 2
+.. = 2rY ̄ 2
+.. . In this particular case the sums of squares
+can be expressed in simpler forms. For example the last term is
+Σ(Ds − D ̄.)2/2. The squared norms on the right-hand side are
+conventionally called respectively sums of squares for general mean,
+for treatments, for pairs and for residual or error.
+
+© 2000 by Chapman & Hall/CRC
+
+Thirdly the dimensions of the spaces spanned by the compo-
+nent vectors, as the vector of observations lies in the full space of
+
+dimension 2r, also are additive:
+
+2r =1+1+(r − 1) + (r − 1). (3.15)
+These are conventionally called degrees of freedom and mean squares
+
+are defined for each term as the sum of squares divided by the de-
+grees of freedom. Finally, under the physical linear model (3.3) the
+
+residual mean square has expectation σ2.
+3.3.2 A modified matched pair design
+In some matched pairs experiments we might wish to include some
+
+pairs of units both
+

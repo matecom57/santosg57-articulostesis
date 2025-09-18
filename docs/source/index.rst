@@ -18,6 +18,10 @@ Contents
 
 .. toctree::
 
+   esfm/damaso
+   The_Theory_of_the_Design_of_Experiments_COX/prefacio
+   The_Theory_of_the_Design_of_Experiments_COX/c01
+   The_Theory_of_the_Design_of_Experiments_COX/c02
    pubmed_intelligence/index2
    art01
    An_Introduction_HTML_JavaScript/index2
