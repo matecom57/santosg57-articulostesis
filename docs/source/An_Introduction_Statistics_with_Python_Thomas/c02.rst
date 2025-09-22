@@ -14,6 +14,16 @@ have experience with Matlab, the article NumPy for Matlab Users (https://numpy.
 org/devdocs/user/numpy-for-matlab-users.html) provides an overview of the simi-
 larities and differences between the two languages.
 
+Python es gratuito, consistente y completamente orientado a objetos, y tiene un gran número de cajas de herramientas 
+científicas (gratuitas) (p. ej., http://www.scipy.org/). Es utilizado por Google, la NASA y muchos otros. Puede encontrar 
+información sobre Python en http://www.python.org/. Si desea utilizar Python para aplicaciones científicas, actualmente la 
+mejor manera de comenzar es con una distribución de Python, ya sea WinPython o Anaconda de Continuum Analytics. Estas 
+distribuciones contienen el software completo de desarrollo científico y de ingeniería para cálculos numéricos, análisis de 
+datos y visualización de datos basado en Python. También vienen con interfaces gráficas de usuario Qt y el entorno 
+interactivo científico/de desarrollo Spyder. Si ya tiene experiencia con Matlab, el artículo NumPy para usuarios de Matlab 
+(https://numpy.org/devdocs/user/numpy-for-matlab-users.html) proporciona una descripción general de las similitudes y 
+diferencias entre los dos lenguajes.
+
 Python is a very-high-level dynamic object-oriented programming language
 (Fig. 2.1). It is designed to be easy to program and easy to read. It was started
 in 1980, and has since gained immense popularity in a broad range of fields from
@@ -21,6 +31,13 @@ web development, system administration, and in science and engineering. Python i
 open source, and has become one of the most successful programming languages.
 There are three reasons why I have switched from other programming languages to
 Python:
+
+Python es un lenguaje de programación dinámico y orientado a objetos de muy alto nivel (Fig. 2.1). Está diseñado para ser 
+fácil de programar y leer. Se creó en 1980 y, desde entonces, ha ganado una inmensa popularidad en una amplia gama de 
+campos, desde el desarrollo web y la administración de sistemas hasta la ciencia y la ingeniería. Python es de código 
+abierto y se ha convertido en uno de los lenguajes de programación más exitosos. Hay tres razones por las que he cambiado 
+de otros lenguajes de programación a Python:
+
 
 * 1. It is the most elegant programming language that I know.
 * 2. It is free.
@@ -40,9 +57,23 @@ more flexible and intuitive. Python can be used with different front-ends (Fig. 
 from the command line or terminal; interactively, using Jupyter and IPython; and
 from “Integrated Development Environments” (IDEs).
 
+La distribución principal de Python contiene únicamente las características esenciales de un lenguaje de programación 
+general. Python es un lenguaje de programación interpretativo, sin optimización para trabajar con vectores o matrices, ni 
+para generar gráficos. Los paquetes que amplían las capacidades de Python deben cargarse explícitamente. Los paquetes más 
+importantes para aplicaciones científicas son numpy, que agiliza y optimiza el trabajo con vectores y matrices, y 
+matplotlib, el paquete más común para generar resultados gráficos. SciPy contiene importantes algoritmos científicos. 
+Pandas se ha adoptado ampliamente para el análisis estadístico de datos. Proporciona DataFrames, estructuras de datos 2D 
+etiquetadas, que hacen que el trabajo con datos sea más flexible e intuitivo. Python puede utilizarse con diferentes 
+interfaces (Fig. 2.2): desde la línea de comandos o la terminal; de forma interactiva, mediante Jupyter e IPython; y desde 
+entornos de desarrollo integrados (IDE).
+
 IPython provides the tools for interactive data analysis, and Jupyter provides the
 different frontends for IPython. IPython lets you quickly display graphs and change
 directories, explore the workspace, provides a command history, etc.
+
+IPython proporciona las herramientas para el análisis interactivo de datos, y Jupyter proporciona las diferentes interfaces 
+para IPython. IPython permite visualizar gráficos rápidamente, cambiar de directorio, explorar el espacio de trabajo, 
+proporcionar un historial de comandos, etc.
 
 Figure 2.3 shows the modular structure of the most important Python packages
 that are used in this book.
@@ -53,11 +84,15 @@ of these distributions when getting started. Otherwise, one can easily become ov
 whelmed by the huge number of Python packages available. My favorite Python
 distributions are
 
-• WinPython recommended for Windows users. At the time of writing, the latest
-version was 3.10.5 https://winpython.github.io/
-• Anaconda by Continuum, for Windows, Mac, and Linux. The latest Anaconda
-version at the time of writing was 2020.11, with Python 3.9.
-https://www.anaconda.com/products/individual
+Para facilitar el uso de Python, las llamadas distribuciones de Python recopilan versiones compatibles de los paquetes más 
+importantes, y recomiendo encarecidamente usar una de estas distribuciones al comenzar. De lo contrario, uno puede verse 
+fácilmente abrumado por la enorme cantidad de paquetes de Python disponibles. Mis distribuciones de Python favoritas son
+
+• WinPython recommended for Windows users. At the time of writing, the latest version was 3.10.5 
+https://winpython.github.io/
+
+• Anaconda by Continuum, for Windows, Mac, and Linux. The latest Anaconda version at the time of writing was 2020.11, with 
+Python 3.9. https://www.anaconda.com/products/individual
 
 I am presently using WinPython, which is free and customizable. Anaconda also
 runs under Mac OS and Linux, and is free for educational purposes.
@@ -90,19 +125,27 @@ the Python programming language and contains more than 390’000 projects!
 Packages from PyPI can be installed easily from the Windows command shell
 (cmd) or the Linux terminal with
 
-pip install <package>
+.. code:: Python
+
+   pip install <package>
 
 To update a package, use
 
-pip install <package> -U
+.. code:: Python
+
+   pip install <package> -U
 
 To get a list of all the Python packages installed on your computer, type
 
-pip list
+.. code:: Python
+
+   pip list
 
 And to show information about a particular package type
 
-pip show <package>
+.. code:: Python
+
+   pip show <package>
 
 Anaconda uses conda, a more powerful installation manager. But pip also works
 with Anaconda.
@@ -124,6 +167,7 @@ C:\Program Files or C:\Program Files (x86)), because this can lead
 to permission problems during the execution of WinPython.
 
 • Download WinPython from https://winpython.github.io/.
+
 • Run the downloaded .exe-file, and install WinPython into the
 <WinPythonDir> of your choice. (On my own system, I place all programs
 that do not modify the Windows Registry, such as WinPython, vim, and ffmpeg,
