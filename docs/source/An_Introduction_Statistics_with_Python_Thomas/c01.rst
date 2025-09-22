@@ -11,9 +11,20 @@ to install Python under Windows, Linux, or MacOS, and goes step-by-step through
 documented programming examples. Tips are included to help avoid some of the
 problems frequently encountered while learning Python.
 
+La primera parte del libro presenta una introducción a la estadística basada en Python. Es imposible abarcar todo el 
+lenguaje en 30 o 40 páginas, así que si eres principiante, consulta alguna de las excelentes introducciones a Python 
+disponibles en internet para obtener más información. Los enlaces se encuentran a continuación. Esta parte es una 
+introducción a Python; muestra cómo instalar Python en Windows, Linux o macOS y guía paso a paso a través de ejemplos de 
+programación documentados. Se incluyen consejos para ayudarte a evitar algunos de los problemas frecuentes al aprender 
+Python.
+
 Because most of the data for statistical analysis are commonly obtained from text
 files, Excel files, or data preprocessed by Matlab, the second chapter presents simple
 ways to import these types of data into Python.
+
+Dado que la mayoría de los datos para el análisis estadístico se obtienen comúnmente de archivos de texto, archivos de 
+Excel o datos preprocesados ​​por Matlab, el segundo capítulo presenta formas simples de importar este tipo de datos a 
+Python.
 
 The last chapter of this part illustrates various ways of visualizing data in Python.
 Since the flexibility of Python for interactive data analysis has led to a certain
@@ -21,12 +32,21 @@ complexity that can frustrate new Python programmers, the code samples presented
 in Chap. 3 for various types of interactive plots should help future Pythonistas avoid
 these problems.
 
+El último capítulo de esta parte ilustra diversas maneras de visualizar datos en Python. Dado que la flexibilidad de Python 
+para el análisis interactivo de datos ha generado cierta complejidad que puede frustrar a los nuevos programadores, los 
+ejemplos de código presentados en el capítulo 3 para diversos tipos de gráficos interactivos deberían ayudar a los futuros 
+Pythonistas a evitar estos problemas.
+
 Chapter 1 Why Statistics?
 --------------------------
 
 Statistics is the explanation of variance in the light of what remains unexplained.
 
+La estadística es la explicación de la varianza a la luz de lo que queda sin explicar.
+
+
 1.1 Why Statistics?
+-------------------
 
 Every day we are confronted with situations with uncertain outcomes, and must
 make decisions based on incomplete data: “Should I run for the bus? Which stock
@@ -41,15 +61,35 @@ statement like “Three patients in one thousand experience nausea when taking t
 medication,” or “If you don’t take this medication, there is a 95 % chance that you
 will die.”
 
-Without statistics, the interpretation of data can quickly become massively
-flawed. Take, for example, the estimated number of German tanks produced during
+Diariamente nos enfrentamos a situaciones con resultados inciertos y debemos tomar decisiones basadas en datos incompletos: 
+"¿Debería apresurarme? ¿Qué acciones debería comprar? ¿Con qué hombre debería casarme? ¿Debería tomar este medicamento? 
+¿Debería vacunar a mis hijos?". Algunas de estas preguntas escapan al ámbito estadístico ("¿Con qué persona debería 
+casarme?"), porque implican demasiadas variables desconocidas. Pero en muchas situaciones, la estadística puede ayudar a 
+extraer el máximo conocimiento de la información proporcionada y a explicar claramente lo que sabemos y lo que no sabemos. 
+Por ejemplo, puede convertir una afirmación vaga como "Este medicamento puede causar náuseas" o "Podría morir si no toma 
+este medicamento" en una afirmación específica como "Tres pacientes de cada mil experimentan náuseas al tomar este 
+medicamento" o "Si no toma este medicamento, hay un 95 % de probabilidades de morir".
+
+ Without statistics, the 
+interpretation 
+of data can quickly become massively flawed. Take, for example, the estimated number of German tanks produced during
 World War II, also known as the “German Tank Problem.” The estimate of the
 number of German tanks produced per month from standard intelligence data was
 1,550; however, the statistical estimate based on the number of tanks observed
 was 327, which was very close to the actual production number of 342 (http://en.
 wikipedia.org/wiki/German_tank_problem).
 
-Similarly, using the wrong tests can also lead to erroneous results.
+Sin estadísticas, la interpretación de los datos puede rápidamente volverse errónea. Tomemos, por ejemplo, la cantidad 
+estimada de tanques alemanes producidos durante la Segunda Guerra Mundial, también conocida como el "Problema de los 
+Tanques Alemanes". La estimación del número de tanques alemanes producidos al mes, basada en datos de inteligencia 
+estándar, era de 1550; sin embargo, la estimación estadística basada en el número de tanques observados era de 327, muy 
+cercana a la producción real de 342 (http://en.wikipedia.org/wiki/German_tank_problem).
+
+ Similarly, using the wrong tests 
+can also lead to erroneous results.
+
+De la misma manera, utilizar pruebas incorrectas también puede conducir a resultados erróneos.
+
 
 In general, statistics will help to
 
@@ -69,11 +109,25 @@ book will not teach you statistical data analysis. If you don’t have your own 
 to analyze, you need to do the exercises included. Should you become frustrated or
 stuck, you can always check the sample Solutions provided at the end of the book.
 
+Leyendo el libro. La estadística fue inventada originalmente, como tantas otras cosas, por el famoso matemático C.F. Gauss, 
+quien dijo sobre su propio trabajo: «Ich habe fleissig sein müssen; wer es gleichfalls ist, wird eben so weit kommen» 
+(«Tuve que trabajar duro; si tú también trabajas duro, tú también tendrás éxito»). Así como leer un libro sobre tocar el 
+piano no te convertirá en un gran pianista, simplemente leer este libro no te enseñará análisis estadístico de datos. Si no 
+tienes tus propios datos para analizar, necesitas hacer los ejercicios incluidos. Si te frustras o te atascas, siempre 
+puedes consultar las soluciones de ejemplo que se proporcionan al final del libro.
+
+
 Exercises. Solutions to the exercises provided can be found at the end of the book.
 In my experience, very few people work through large numbers of examples on their
 own, so I have not included additional exercises in this book.
 If the information here is not sufficient, additional material can be found in other
 statistical textbooks and on the web:
+
+Ejercicios. Las soluciones de los ejercicios propuestos se encuentran al final del libro. En mi experiencia, muy pocas 
+personas resuelven grandes cantidades de ejemplos por sí solas, por lo que no he incluido ejercicios adicionales en este 
+libro. Si la información aquí presentada no es suficiente, se puede encontrar material adicional en otros libros de texto 
+de estadística y en internet:
+
 
 Books. There are a number of good books on statistics. My favorite is Altman
 (1999): it does not dwell on computers and modeling, but gives an extremely useful
@@ -85,6 +139,14 @@ regression modeling. If you know your basic statistics, a very good introduction
 to Generalized Linear Models can be found in Dobson and Barnett (2008), which
 provides a sound, advanced treatment of statistical modeling.
 
+Libros. Hay varios libros buenos sobre estadística. Mi favorito es Altman (1999): no se centra en computadoras ni modelado, 
+sino que ofrece una introducción extremadamente útil al campo, especialmente para las ciencias de la vida y las 
+aplicaciones médicas. Muchas formulaciones y ejemplos de este manuscrito se han tomado de ese libro. Un libro más moderno, 
+más voluminoso y, en mi opinión, un poco más difícil de leer, es Riffenburgh (2012). Kaplan (2009) ofrece una introducción 
+sencilla al modelado de regresión moderno. Si tiene conocimientos básicos de estadística, puede encontrar una excelente 
+introducción a los modelos lineales generalizados en Dobson y Barnett (2008), que ofrece un tratamiento sólido y avanzado 
+del modelado estadístico.
+
 WWW In the web, you will find very extensive information on statistics in
 English at
 
@@ -94,8 +156,7 @@ English at
 • http://onlinestatbook.com/2/index.html
 • http://www.itl.nist.gov/div898/handbook/index.htm
 
-A good German web page on statistics and regulatory issues is http://www.
-reiter1.com/.
+A good German web page on statistics and regulatory issues is http://www.reiter1.com/.
 
 I hope to convince you that Python provides clear and flexible tools for most of
 the statistical problems that you will encounter, and that you will enjoy using it.
@@ -123,6 +184,11 @@ of the figures. They can be downloaded from GitHub
 https://github.com/thomas-haslwanter/statsintro-python-2e
 which is organized in folders:
 
+Todos los ejemplos y soluciones que se muestran en este libro están disponibles en línea. Esto incluye ejemplos de código y 
+programas de ejemplo, cuadernos Jupyter con información adicional o ampliada, así como los datos y el código Python 
+utilizados para generar muchas de las figuras. Se pueden descargar desde GitHub 
+(https://github.com/thomas-haslwanter/statsintro-python-2e), organizados en carpetas:
+
 data: Raw data required for running the programs.
 
 resources: Images used by this repository.
@@ -143,8 +209,7 @@ F8_4_anovaOneway.py
 
 src/code_quantlets: Additional code samples.
 
-In this book, references to the src/code_quantlets-directory in this reposi-
-tory will be abbreviated with <ISP2e>. Make sure also to look at the file
+In this book, references to the src/code_quantlets-directory in this repository will be abbreviated with <ISP2e>. Make sure also to look at the file
 Errata.pdf in the top folder of that archive, which will be kept up to date with
 corrections to any mistakes that are discovered after publication of the book.
 
@@ -154,5 +219,11 @@ git clone <RepositoryName> (here, the repository name of
 statsintro-python-2e given above) in a command terminal, and the whole
 repository—code as well as data—will be “cloned” to your system. Alternatively,
 you can download a ZIP-archive from there to your local system.
+
+Los paquetes en GitHub se llaman repositorios y se pueden copiar fácilmente a tu ordenador: una vez instalado Git, 
+simplemente escribe git clone <NombreDeRepositorio> (aquí, el nombre del repositorio statsintro-python-2e mencionado 
+anteriormente) en una terminal de comandos y todo el repositorio, tanto el código como los datos, se clonará en tu sistema. 
+También puedes descargar un archivo ZIP desde allí a tu sistema local.
+
 
 
