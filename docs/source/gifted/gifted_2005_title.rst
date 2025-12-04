@@ -66,10 +66,20 @@ Rendimiento cognitivo infantil y riesgo de mortalidad: un estudio de cohorte pro
 
     "title": "Mathematically gifted male adolescents activate a unique brain network during mental rotation.",
 
+Los adolescentes varones con talento matemático activan una red cerebral única durante la rotación mental
+
     "title": "Development and validation of a music performance anxiety inventory for gifted adolescent musicians.",
+
+Desarrollo y validación de un inventario de ansiedad interpretativa musical para músicos adolescentes talentosos
 
     "title": "Outstanding Scientist of the Year 2005: William Spotnitz, gifted scientist, inventor, and cardiothoracic and vascular surgeon.",
 
+Científico destacado del año 2005: William Spotnitz, talentoso científico, inventor y cirujano cardiotorácico y vascular.
+
     "title": "Behavioural, academic and neuropsychological profile of normally gifted Neurofibromatosis type 1 children.",
 
+Perfil conductual, académico y neuropsicológico de niños con neurofibromatosis tipo 1 normalmente dotados
+
     "title": "Long-distance learning: Ralph the washing machine repair man: a gifted teacher.",
+
+Aprendizaje a distancia: Ralph, el reparador de lavadoras: un profesor talentoso
