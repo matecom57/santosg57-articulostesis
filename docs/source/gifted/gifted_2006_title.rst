@@ -4,13 +4,18 @@ gifted_2006
 
     "title": "[Skvyrs'ka Etel Berkivna--a gifted researcher and pedagogue (to the 100th anniversary of birthday)].",
 
+
     "title": "[Oleksandr Solomonovych Tsyperovych--gifted enzymologist, scientist and practician].",
 
     "title": "[School problems in gifted children and adolescents].",
 
+Problemas escolares en niños y adolescentes superdotados
+
     "title": "Chris Barnard--a personal tribute to a gifted heart surgeon and a great intellect.",
 
     "title": "The relationship of intelligence to executive function and non-executive function measures in a sample of average, above average, and gifted youth.",
+
+
 
     "title": "Thinking styles of gifted and nongifted students in Iran.",
 
