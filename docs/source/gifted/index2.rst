@@ -7,6 +7,4 @@ Contents
 
 .. toctree::
 
-   usage
-   aa
-   bb
+   gifted_2005_title
