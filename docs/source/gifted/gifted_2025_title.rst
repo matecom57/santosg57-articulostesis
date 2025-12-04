@@ -1,4 +1,5 @@
 grifted_2025
+============
 
     "title": "Investigating the psychometric properties and confirmatory factor structure of the opinions about the gifted and their education as a teacher's attitude scale.",
 
