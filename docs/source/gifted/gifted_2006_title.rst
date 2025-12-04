@@ -15,19 +15,28 @@ Problemas escolares en niños y adolescentes superdotados
 
     "title": "The relationship of intelligence to executive function and non-executive function measures in a sample of average, above average, and gifted youth.",
 
-
+La relación entre la inteligencia, la función ejecutiva y las medidas de la función no ejecutiva en una muestra de jóvenes 
+promedio, superiores al promedio y superdotados
 
     "title": "Thinking styles of gifted and nongifted students in Iran.",
+
+Estilos de pensamiento de estudiantes superdotados y no superdotados en Irán
 
     "title": "Dr. Alfred Ketcham: a most gifted physician and surgeon.",
 
     "title": "Differences in EEG between gifted and average students: neural complexity and functional cluster analysis.",
 
+Diferencias en el EEG entre estudiantes superdotados y promedio: complejidad neuronal y análisis de conglomerados funcionales
+
     "title": "[The highly gifted persons study by Adele Juda 1927-1955. Pinnacle and end of psychiatric genius research in Germany].",
 
     "title": "[Link between depression and academic self-esteem in gifted children].",
 
+Relación entre la depresión y la autoestima académica en niños superdotados
+
     "title": "[Focus on difficulties encountered by gifted children].",
+
+
 
     "title": "Effects of Math Anxiety and Perfectionism on Timed versus Untimed Math Testing in Mathematically Gifted Sixth Graders.",
 

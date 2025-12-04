@@ -1,22 +1,47 @@
+gifted_2007
+===========
+
+
     "title": "The drama of the gifted disease.",
+
     "title": "Measurement Invariance of the Chinese Gifted Rating Scales: Teacher and Parent Forms.",
+
     "title": "[Skvyrs'ka Etel Berkivna--a gifted researcher and pedagogue (to the 100th anniversary of birthday)].",
+
     "title": "Parenting gifted and talented children: what are the key child behaviour and parenting issues?",
+
     "title": "The Reliability and Validity of a Spanish Translated Version of the Gifted Rating Scales.",
+
     "title": "Validation of the Gifted Rating Scales-School Form in China.",
+
     "title": "[Oleksandr Solomonovych Tsyperovych--gifted enzymologist, scientist and practician].",
+
     "title": "Big fish in big ponds: a multilevel analysis of test anxiety and achievement in special gifted classes.",
+
     "title": "The Gifted Rating Scales-School Form: A Validation Study Based on Age, Gender, and Race.",
+
     "title": "Identifying Young Gifted Children Using the Gifted Rating Scales-Preschool/Kindergarten Form.",
+
     "title": "[School problems in gifted children and adolescents].",
+
     "title": "Chris Barnard--a personal tribute to a gifted heart surgeon and a great intellect.",
+
     "title": "The relationship of intelligence to executive function and non-executive function measures in a sample of average, above average, and gifted youth.",
+
     "title": "Thinking styles of gifted and nongifted students in Iran.",
+
     "title": "Dr. Alfred Ketcham: a most gifted physician and surgeon.",
+
     "title": "Differences in EEG between gifted and average students: neural complexity and functional cluster analysis.",
+
     "title": "[The highly gifted persons study by Adele Juda 1927-1955. Pinnacle and end of psychiatric genius research in Germany].",
+
     "title": "[Link between depression and academic self-esteem in gifted children].",
+
     "title": "[Focus on difficulties encountered by gifted children].",
+
     "title": "Effects of Math Anxiety and Perfectionism on Timed versus Untimed Math Testing in Mathematically Gifted Sixth Graders.",
+
     "title": "Two-phase survey of eating disorders in gifted dance and non-dance high-school students in Taiwan.",
+
     "title": "The Gifted Rating Scales-Preschool/Kindergarten Form: An Analysis of the Standardization Sample Based on Age, Gender, and Race.",
