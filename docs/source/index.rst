@@ -36,3 +36,4 @@ Contents
    art05
    GenerativeIA/doc01
    art06
+   gifted/index2
