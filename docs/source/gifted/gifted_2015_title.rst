@@ -1,29 +1,65 @@
-    "title": "Pain Control by Novel Route of Gifted Choice Against Peroral Route.",
-    "title": "The Gifted Child.",
-    "title": "High-Ability Grouping: Benefits for Gifted Students' Achievement Development Without Costs in Academic Self-Concept.",
-    "title": "Paradigm Shifts in Gifted Education: An Examination Vis-\u00e0-Vis Its Historical Situatedness and Pedagogical Sensibilities.",
-    "title": "Cognitive Profile of Intellectually Gifted Adults: Analyzing the Wechsler Adult Intelligence Scale.",
-    "title": "Identifying Gifted Children: Congruence among Different IQ Measures.",
-    "title": "A Gifted Teacher.",
-    "title": "Foreign language reading and spelling in gifted students with dyslexia in secondary education.",
-    "title": "Translating Interdisciplinary Research on Language Learning into Identifying Specific Learning Disabilities in Verbally Gifted and Average Children and Youth.",
-    "title": "Approximate number sense correlates with math performance in gifted adolescents.",
-    "title": "Preliminary Report on Neuroanatomical Differences Among Reading Disabled, Nonverbally Gifted, and Gifted-Reading Disabled College Students.",
-    "title": "Molecular beacons to identify gifted microbes for genome mining.",
+gifted_2015
+===========
+
+
     "title": "Expanding access to gifted education.",
+
     "title": "Dynamic testing and test anxiety amongst gifted and average-ability children.",
+
     "title": "Universal screening increases the representation of low-income and minority students in gifted education.",
+
     "title": "The archaeal \"7\u2009kDa DNA-binding\" proteins: extended characterization of an old gifted family.",
+
     "title": "Gifted microbes for genome mining and natural product discovery.",
+
     "title": "Cultivating the social-emotional imagination in gifted education: insights from educational neuroscience.",
+
     "title": "Creativity in gifted identification: increasing accuracy and diversity.",
+
     "title": "[THE GIFTED IN EFFORTS].",
+
     "title": "NF-\u03baB Blockers Gifted by Mother Nature: Prospectives in Cancer Cell Chemosensitization.",
+
     "title": "Comparison of the Rey Auditory Verbal Learning Test (RAVLT) and Digit Test among Typically Achieving and Gifted Students.",
+
     "title": "When Lightning Strikes Twice: Profoundly Gifted, Profoundly Accomplished.",
+
     "title": "Testosterone metabolism: a possible biological underpinning of non-verbal IQ in intellectually gifted girls.",
+
     "title": "[The drawing as a therapeutic mediation tool for gifted children].",
+
     "title": "Cortical morphometry in frontoparietal and default mode networks in math-gifted adolescents.",
+
+    "title": "Norman Bethune: Gifted Surgeon and a Strange Idealist.",
+
     "title": "Treating the emotional and motivational inhibition of highly gifted underachievers with music psychotherapy: Meta-analysis of an evaluation study based on a sequential design.",
+
     "title": "Big fish in big ponds: Contrast and assimilation effects on math and verbal self-concepts of students in within-school gifted tracks.",
+
+    "title": "Historical Vignette: Robert Marcus Gunn (1850-1909): Scottish Ophthalmologist, Skilled Observer, and Gifted Teacher.",
+
+    "title": "Are gifted adolescents more satisfied with their lives than their non-gifted peers?",
+
+    "title": "A Young and Gifted Scientist.",
+
+    "title": "Localization of neural efficiency of the mathematically gifted brain through a feature subset selection method.",
+
+    "title": "Risk and protective factors in gifted children with dyslexia.",
+
+    "title": "The Intervening Role of Alexithymia in the Relationship between Attachment Styles and Test Anxiety among Gifted High School Students.",
+
+    "title": "Intelligence and handedness: Meta-analyses of studies on intellectually disabled, typically developing, and gifted individuals.",
+
+    "title": "Neural mechanism of facial expression perception in intellectually gifted adolescents.",
+
+    "title": "Vivien Thomas: master craftsman, gifted teacher, and unsung hero.",
+
+    "title": "Mathematically gifted adolescents mobilize enhanced workspace configuration of theta cortical network during deductive reasoning.",
+
+    "title": "Narrative performance of gifted African American school-aged children from low-income backgrounds.",
+
+    "title": "Identifying emotional and behavioral risk among gifted and nongifted children: A multi-gate, multi-informant approach.",
+
     "title": "High Reading Skills Mask Dyslexia in Gifted Children.",
+
+    "title": "A neurodevelopmental approach to understanding memory processes among intellectually gifted youth with attention-deficit hyperactivity disorder.",

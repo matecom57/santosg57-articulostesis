@@ -1,34 +1,70 @@
+gifted_2018
+===========
+
     "title": "Onychalgia Causes and Mechanisms: The \"GIFTED KID\" and the \"FOMITE\".",
+
     "title": "Crisis of Meaning and Subjective Well-Being: The Mediating Role of Resilience and Self-Control among Gifted Adults.",
+
     "title": "Avoiding the Thorns of the Gifted Red Rose: Case Report of Late Diagnosis of Polycythemia Rubra Vera in a Sibling Bone Marrow Transplantation Donor for a Patient with Chronic Myeloid Leukemia.",
+
     "title": "Observation Criteria for Physical Education Teachers to Identify Gifted Children through Invasion Games.",
+
     "title": "Academic (Under)achievement of Intellectually Gifted Students in the Transition Between Primary and Secondary Education: An Individual Learner Perspective.",
+
     "title": "Creative, Thus Connected: The Power of Sociometric Creativity on Friendship Formation in Gifted Adolescents-A Longitudinal Network Analysis of Gifted Students.",
+
     "title": "Differences in Personal, Familial, Social, and School Factors Between Underachieving and Non-underachieving Gifted Secondary Students.",
+
     "title": "Bringing Giftedness to Bear: Generativity, Meaningfulness, and Self-Control as Resources for a Happy Life Among Gifted Adults.",
+
     "title": "Subjective Emotional Well-Being, Emotional Intelligence, and Mood of Gifted vs. Unidentified Students: A Relationship Model.",
+
     "title": "Gifted and Average-Ability Children's Potential for Solving Analogy Items.",
+
     "title": "Pain Control by Novel Route of Gifted Choice Against Peroral Route.",
+
     "title": "Differences in working memory between gifted or talented students and community samples: A meta-analysis.",
+
     "title": "Structural brain network of gifted children has a more integrated and versatile topology.",
+
     "title": "Cyberbullying in Gifted Students: Prevalence and Psychological Well-Being in a Spanish Sample.",
+
     "title": "Is planning related to dynamic testing outcomes? Investigating the potential for learning of gifted and average-ability children.",
+
     "title": "Imidazole and 1,2,4-Triazole-based Derivatives Gifted with Antitubercular Activity: Cytotoxicity and Computational Assessment.",
+
     "title": "Profiles and academic trajectories of cognitively gifted children with autism spectrum disorder.",
+
     "title": "Polyphasic classification of the gifted natural product producer Streptomyces roseifaciens sp. nov.",
+
     "title": "[Why don't we take good care of our less gifted patients?].",
+
     "title": "The persisting sadness, an inclination to become emotional: the case of inspector Ricciardi gifted with the capacity to feel pain.",
+
     "title": "On the Relation Between Procedural Learning and Syntactic Proficiency in Gifted Children.",
+
     "title": "Mathematically Gifted Accelerated Students Participating in an Ability Group: A Qualitative Interview Study.",
+
     "title": "A neurocomputational model of developmental trajectories of gifted children under a polygenic model: When are gifted children held back by poor environments?",
+
     "title": "Gifted Students.",
+
     "title": "Emotional and Behavioral Characteristics of Gifted Children and Their Families.",
+
     "title": "Short Forms of Wechsler Scales Assessing the Intellectually Gifted Children Using Simulation Data.",
+
     "title": "Problem Space Matters: Evaluation of a German Enrichment Program for Gifted Children.",
+
     "title": "Non-cognitive Characteristics of Gifted Students With Learning Disabilities: An In-depth Systematic Review.",
+
     "title": "High-performing general practice registrars, the gifted and the talented: Helping them to reach their potential.",
+
     "title": "GIFTed Demons: deformable image registration with local structure-preserving regularization using supervoxels for liver applications.",
+
     "title": "Faces presenting sadness enhance self-control abilities in gifted adolescents.",
+
     "title": "The 'gifted' actinomycete Streptomyces leeuwenhoekii.",
+
     "title": "High-Ability Grouping: Benefits for Gifted Students' Achievement Development Without Costs in Academic Self-Concept.",
+
     "title": "Cognitive Profile of Intellectually Gifted Adults: Analyzing the Wechsler Adult Intelligence Scale.",

@@ -1,27 +1,56 @@
+gifted_2017
+===========
+
     "title": "Pain Control by Novel Route of Gifted Choice Against Peroral Route.",
+
     "title": "[Why don't we take good care of our less gifted patients?].",
+
     "title": "The persisting sadness, an inclination to become emotional: the case of inspector Ricciardi gifted with the capacity to feel pain.",
+
     "title": "Mathematically Gifted Accelerated Students Participating in an Ability Group: A Qualitative Interview Study.",
+
     "title": "A neurocomputational model of developmental trajectories of gifted children under a polygenic model: When are gifted children held back by poor environments?",
+
     "title": "Gifted Students.",
+
     "title": "Emotional and Behavioral Characteristics of Gifted Children and Their Families.",
+
     "title": "Short Forms of Wechsler Scales Assessing the Intellectually Gifted Children Using Simulation Data.",
+
     "title": "Problem Space Matters: Evaluation of a German Enrichment Program for Gifted Children.",
+
     "title": "Non-cognitive Characteristics of Gifted Students With Learning Disabilities: An In-depth Systematic Review.",
+
     "title": "High-performing general practice registrars, the gifted and the talented: Helping them to reach their potential.",
+
     "title": "GIFTed Demons: deformable image registration with local structure-preserving regularization using supervoxels for liver applications.",
+
     "title": "Faces presenting sadness enhance self-control abilities in gifted adolescents.",
+
     "title": "The 'gifted' actinomycete Streptomyces leeuwenhoekii.",
+
     "title": "The Gifted Child.",
+
     "title": "High-Ability Grouping: Benefits for Gifted Students' Achievement Development Without Costs in Academic Self-Concept.",
+
     "title": "Paradigm Shifts in Gifted Education: An Examination Vis-\u00e0-Vis Its Historical Situatedness and Pedagogical Sensibilities.",
+
     "title": "Cognitive Profile of Intellectually Gifted Adults: Analyzing the Wechsler Adult Intelligence Scale.",
+
     "title": "Identifying Gifted Children: Congruence among Different IQ Measures.",
+
     "title": "A Gifted Teacher.",
+
     "title": "Foreign language reading and spelling in gifted students with dyslexia in secondary education.",
+
     "title": "Translating Interdisciplinary Research on Language Learning into Identifying Specific Learning Disabilities in Verbally Gifted and Average Children and Youth.",
+
     "title": "Approximate number sense correlates with math performance in gifted adolescents.",
+
     "title": "Preliminary Report on Neuroanatomical Differences Among Reading Disabled, Nonverbally Gifted, and Gifted-Reading Disabled College Students.",
+
     "title": "Molecular beacons to identify gifted microbes for genome mining.",
+
     "title": "Dynamic testing and test anxiety amongst gifted and average-ability children.",
+
     "title": "Gifted microbes for genome mining and natural product discovery.",
