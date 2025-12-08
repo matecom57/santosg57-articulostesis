@@ -96,6 +96,13 @@ Los niños superdotados y el médico de familia
 
     "title": "[Gifted children or children at risk?].",
 
+¿Niños superdotados o niños en riesgo?
+
     "title": "Ontogenetic features of the psychophysiological mechanisms of perception of the emotional component of speech in musically gifted children.",
 
+Características ontogenéticas de los mecanismos psicofisiológicos de la percepción del componente emocional del habla en niños superdotados musicalmente
+
     "title": "Performance anxiety in gifted adolescent musicians.",
+
+Ansiedad escénica en músicos adolescentes talentosos
+
