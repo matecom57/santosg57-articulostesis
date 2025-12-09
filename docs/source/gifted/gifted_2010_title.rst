@@ -75,9 +75,16 @@ Síntomas de alerta y trastornos relacionados en niños superdotados
 
     "title": "[Respecting the needs of intellectually gifted children and adolescents].",
 
+Respetando las necesidades de los niños y adolescentes intelectualmente dotados
+
     "title": "Parent, teacher, and self perceptions of psychosocial functioning in intellectually gifted children and adolescents with autism spectrum disorder.",
 
+Percepciones de padres, maestros y autopercepciones del funcionamiento psicosocial en niños y adolescentes intelectualmente superdotados con trastorno del 
+espectro autista
+
     "title": "Ability grouping of gifted students: effects on academic self-concept and boredom.",
+
+Agrupación por capacidad de los estudiantes superdotados: efectos sobre el autoconcepto académico y el aburrimiento
 
     "title": "'Autistic' local processing bias also found in children gifted in realistic drawing.",
 
