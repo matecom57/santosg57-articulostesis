@@ -9,11 +9,25 @@ gifted_2018
 
     "title": "Observation Criteria for Physical Education Teachers to Identify Gifted Children through Invasion Games.",
 
-    "title": "Academic (Under)achievement of Intellectually Gifted Students in the Transition Between Primary and Secondary Education: An Individual Learner Perspective.",
+Criterios de observación para profesores de educación física para identificar a niños superdotados mediante juegos de invasión
 
-    "title": "Creative, Thus Connected: The Power of Sociometric Creativity on Friendship Formation in Gifted Adolescents-A Longitudinal Network Analysis of Gifted Students.",
+    "title": "Academic (Under)achievement of Intellectually Gifted Students 
+in the Transition Between Primary and Secondary Education: An Individual Learner Perspective.",
 
-    "title": "Differences in Personal, Familial, Social, and School Factors Between Underachieving and Non-underachieving Gifted Secondary Students.",
+Rendimiento académico insuficiente de estudiantes con altas capacidades intelectuales en la transición entre la educación primaria y 
+secundaria: una perspectiva individual del estudiante
+
+    "title": "Creative, Thus Connected: The Power of Sociometric Creativity 
+on Friendship Formation in Gifted Adolescents-A Longitudinal Network Analysis of Gifted Students.",
+
+Creativos, por lo tanto conectados: El poder de la creatividad sociométrica en la formación de amistades en adolescentes 
+superdotados: un análisis longitudinal de redes de estudiantes superdotados
+
+    "title": "Differences in Personal, Familial, Social, and School Factors 
+Between Underachieving and Non-underachieving Gifted Secondary Students.",
+
+Diferencias en factores personales, familiares, sociales y escolares entre estudiantes superdotados de secundaria con bajo 
+rendimiento y con bajo rendimiento
 
     "title": "Bringing Giftedness to Bear: Generativity, Meaningfulness, and Self-Control as Resources for a Happy Life Among Gifted Adults.",
 

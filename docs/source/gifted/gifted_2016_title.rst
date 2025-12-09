@@ -64,7 +64,11 @@ Pruebas dinámicas y ansiedad ante los exámenes entre niños superdotados y de 
 
     "title": "Cultivating the social-emotional imagination in gifted education: insights from educational neuroscience.",
 
+Cultivar la imaginación socioemocional en la educación de los superdotados: perspectivas desde la neurociencia educativa.
+
     "title": "Creativity in gifted identification: increasing accuracy and diversity.",
+
+Creatividad en la identificación de superdotados: aumentando la precisión y la diversidad.
 
     "title": "[THE GIFTED IN EFFORTS].",
 
@@ -76,11 +80,21 @@ Pruebas dinámicas y ansiedad ante los exámenes entre niños superdotados y de 
 
     "title": "Testosterone metabolism: a possible biological underpinning of non-verbal IQ in intellectually gifted girls.",
 
+Metabolismo de la testosterona: una posible base biológica del coeficiente intelectual no verbal en niñas intelectualmente dotadas
+
     "title": "[The drawing as a therapeutic mediation tool for gifted children].",
+
+El dibujo como herramienta de mediación terapéutica para niños superdotados
 
     "title": "Cortical morphometry in frontoparietal and default mode networks in math-gifted adolescents.",
 
-    "title": "Treating the emotional and motivational inhibition of highly gifted underachievers with music psychotherapy: Meta-analysis of an evaluation study based on a sequential design.",
+Morfometría cortical en redes frontoparietales y de modo predeterminado en adolescentes con talento matemático
+
+    "title": "Treating the emotional and motivational inhibition of 
+highly gifted underachievers with music psychotherapy: Meta-analysis of an evaluation study based on a sequential design.",
+
+Tratamiento de la inhibición emocional y motivacional de estudiantes altamente dotados con bajo rendimiento mediante psicoterapia 
+musical: metaanálisis de un estudio de evaluación basado en un diseño secuencial
 
     "title": "Big fish in big ponds: Contrast and assimilation effects on math and verbal self-concepts of students in within-school gifted tracks.",
 
