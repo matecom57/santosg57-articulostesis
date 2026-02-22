@@ -18,6 +18,7 @@ Contents
 
 .. toctree::
 
+   Introduction_to_Probability_Theory
    An_Introduction_Statistics_with_Python_Thomas/index2
    esfm/damaso
    The_Theory_of_the_Design_of_Experiments_COX/prefacio
