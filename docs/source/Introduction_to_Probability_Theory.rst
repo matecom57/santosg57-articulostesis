@@ -7,6 +7,25 @@ https://manualdelatex.com/tutoriales/tipo-de-letra
 
 1.1 Examples of random phenomena
 
+In this section we will discuss
+
+**Example 1.** 
+
+* A box has s balls
+* Suppose  we repeat the above experiment n times
+* Let :math:`N_n(k)` denote the number of times the ball labeled k was drawn these
+n **trials** of the experiment.
+* The relative frequencies (i.e. proportion of times) of the outcomes 1, 2, and 3 are then
+
+.. math::
+
+   \frac{N_{20}(1)}{20} = .25, \frac{N_{20}(2)}{20} = .40, \text{ and } \frac{N_{20}(3)}{20} = .35,
+
+to settle down -
+
+* We will make a mathematical model of the experiment of drawing
+a ball from the box.
+* let us see how we can reflect this fact in our model.
 1.2 Probability spaces
 
 * to develop the formal mathematical structure, called a probabilty space
@@ -27,7 +46,7 @@ envision -
 
 (i) :math:`P(\Omega) = 1`
 
-(ii) :math:`P(A) \geq 0` for all `A \in \mathscr{A}`.
+(ii) :math:`P(A) \geq 0` for all :math:`A \in \mathscr{A}`.
 
 (iii) If :math:`A_n` n=1, 2, 3, ..., are mutually disjoint sets in :math:`\mathscr{A}`, then
 
