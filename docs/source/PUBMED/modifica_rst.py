@@ -10,8 +10,10 @@ filo.write(file+'\n')
 filo.write('==================='+'\n')
 filo.write('\n')
 
+k = 1
 for ss in datos:
-  filo.write('* '+ss)
+  filo.write('* '+str(k) + ' - ' + ss)
+  k = k+1
 
 filo.close()
 
