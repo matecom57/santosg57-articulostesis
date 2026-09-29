@@ -20,25 +20,4 @@ Contents
    :maxdepth: 1
    :caption: TODO
 
-   Introduction_to_Probability_Theory
    An_Introduction_Statistics_with_Python_Thomas/index2
-   esfm/damaso
-   The_Theory_of_the_Design_of_Experiments_COX/prefacio
-   The_Theory_of_the_Design_of_Experiments_COX/c01
-   The_Theory_of_the_Design_of_Experiments_COX/c02
-   pubmed_intelligence/index2
-   art01
-   An_Introduction_HTML_JavaScript/index2
-   art02
-   Handbook_Biomedical_Imaging_Paragios/Curve_Propagation_Level_Set_Methods_Grouping
-   Biology_3E_Wunschiers/Biology_3E_Wunschiers_C01
-   Articulos/articulos
-   SPM/index2
-   art03
-   art04
-   art05
-   GenerativeIA/doc01
-   art06
-   gifted/index2
-   PUBMED/fecha_rango_M4D7y26_titulos
-
