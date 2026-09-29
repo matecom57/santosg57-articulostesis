@@ -21,3 +21,5 @@ Contents
    :caption: TODO
 
    An_Introduction_Statistics_with_Python_Thomas/index2
+   parkinson/parkinson_title.rst 
+
