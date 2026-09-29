@@ -17,6 +17,8 @@ Contents
 --------
 
 .. toctree::
+   :maxdepth: 1
+   :caption: TODO
 
    Introduction_to_Probability_Theory
    An_Introduction_Statistics_with_Python_Thomas/index2
